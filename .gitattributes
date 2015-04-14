@@ -1,0 +1,5 @@
+# Catch all for anything not specified. Add rules if you get CRLF to LF warnings.
+* text=auto
+
+# Text files that should be normalized to LF in odb.
+*.rb text diff=ruby
