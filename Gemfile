@@ -1,4 +1,11 @@
 source 'https://rubygems.org'
 
-# Dependencies are defined in the .gemspec
+gem 'rake'
+
+group :test do
+  gem 'rspec'
+  gem 'coveralls'
+  gem 'simplecov'
+end
+
 gemspec
