@@ -12,3 +12,4 @@ end
 
 require 'gogokit'
 require 'rspec'
+require 'webmock/rspec'
