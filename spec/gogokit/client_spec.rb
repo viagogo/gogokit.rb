@@ -25,7 +25,10 @@ describe GogoKit::Client do
           non_templated_url = 'https://host.com/path'
           expected_url = "#{non_templated_url}?var=value"
           stub_request(:any, /.*/)
-          client.send(:request, method, non_templated_url, nil, var: 'value')
+          client.send(:request,
+                      method,
+                      non_templated_url,
+                      params: {var: 'value'})
           expect(a_request(:any, expected_url)).to have_been_made
         end
 
@@ -36,8 +39,7 @@ describe GogoKit::Client do
           client.send(:request,
                       method,
                       templated_url,
-                      nil,
-                      hello: 'Hello World!')
+                      params: {hello: 'Hello World!'})
           expect(a_request(:any, expected_url)).to have_been_made
         end
 
@@ -48,8 +50,7 @@ describe GogoKit::Client do
           client.send(:request,
                       method,
                       templated_url,
-                      nil,
-                      path: '/foo/bar')
+                      params: {path: '/foo/bar'})
           expect(a_request(:any, expected_url)).to have_been_made
         end
 
@@ -60,8 +61,7 @@ describe GogoKit::Client do
           client.send(:request,
                       method,
                       templated_url,
-                      nil,
-                      x: 1024, y: 768, empty: nil)
+                      params: {x: 1024, y: 768, empty: nil})
           expect(a_request(:any, expected_url)).to have_been_made
         end
 
@@ -69,7 +69,7 @@ describe GogoKit::Client do
           it 'makes an HTTP request with HAL+JSON Content-Type' do
             expected_content_type = 'application/hal+json'
             stub_request(:any, /.*/)
-            client.send(:request, method, 'https://api.com', nil, {}, {})
+            client.send(:request, method, 'https://api.com', headers: {})
             expect(a_request(:any, /.*/)
                      .with(headers: {'Content-Type' => expected_content_type}))
               .to have_been_made
@@ -83,9 +83,7 @@ describe GogoKit::Client do
             client.send(:request,
                         method,
                         'https://api.com',
-                        nil,
-                        {},
-                        'Content-Type' => expected_content_type)
+                        headers: {'Content-Type' => expected_content_type})
             expect(a_request(:any, /.*/)
                      .with(headers: {'Content-Type' => expected_content_type}))
               .to have_been_made
@@ -96,7 +94,7 @@ describe GogoKit::Client do
           it 'makes an HTTP request with HAL+JSON Accept header' do
             expected_accept = 'application/hal+json'
             stub_request(:any, /.*/)
-            client.send(:request, method, 'https://api.com', nil, {}, {})
+            client.send(:request, method, 'https://api.com', headers: {})
             expect(a_request(:any, /.*/)
                        .with(headers: {'Accept' => expected_accept}))
               .to have_been_made
@@ -110,9 +108,7 @@ describe GogoKit::Client do
             client.send(:request,
                         method,
                         'https://api.com',
-                        nil,
-                        {},
-                        'Accept' => expected_accept)
+                        headers: {'Accept' => expected_accept})
             expect(a_request(:any, /.*/)
                        .with(headers: {'Accept' => expected_accept}))
               .to have_been_made
@@ -147,11 +143,44 @@ describe GogoKit::Client do
         it 'makes an HTTP request with the given body' do
           expected_body = {foo: 'bar'}
           stub_request(:any, /.*/)
-          client.send(:request, method, 'https://api.com', expected_body)
+          client.send(:request, method, 'https://api.com', body: expected_body)
           expect(a_request(:any, /.*/)
                      .with { |req| req.body == expected_body })
             .to have_been_made
         end
+      end
+    end
+  end
+
+  [:get, :post, :head, :put, :delete, :patch].each do |method|
+    describe "##{method}" do
+      it "performs a #{method} request" do
+        allow(client).to receive(:request).and_return(nil)
+        client.send(method, 'https://api.com')
+
+        expect(client).to have_received(:request).with(method,
+                                                       anything,
+                                                       anything)
+      end
+
+      it 'performs a request to the given URL' do
+        expected_url = 'https://api.vgg.com/events'
+        allow(client).to receive(:request).and_return(nil)
+        client.send(method, expected_url)
+
+        expect(client).to have_received(:request).with(anything,
+                                                       expected_url,
+                                                       anything)
+      end
+
+      it 'performs a request with the given options' do
+        expected_options = {body: 'foo', params: {a: 5, b: 6}, headers: {}}
+        allow(client).to receive(:request).and_return(nil)
+        client.send(method, 'https://api.com', expected_options)
+
+        expect(client).to have_received(:request).with(anything,
+                                                       anything,
+                                                       expected_options)
       end
     end
   end

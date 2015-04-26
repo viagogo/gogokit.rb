@@ -14,14 +14,56 @@ module GogoKit
       @user_agent ||= "GogoKit Ruby Gem #{GogoKit::VERSION}"
     end
 
+    # Perform an HTTP DELETE request
+    #
+    # @return [Hash] object containing response information
+    def delete(url, options = {})
+      request(:delete, url, options)
+    end
+
+    # Perform an HTTP GET request
+    #
+    # @return [Hash] object containing response information
+    def get(url, options = {})
+      request(:get, url, options)
+    end
+
+    # Perform an HTTP HEAD request
+    #
+    # @return [Hash] object containing response information
+    def head(url, options = {})
+      request(:head, url, options)
+    end
+
+    # Perform an HTTP PATCH request
+    #
+    # @return [Hash] object containing response information
+    def patch(url, options = {})
+      request(:patch, url, options)
+    end
+
+    # Perform an HTTP POST request
+    #
+    # @return [Hash] object containing response information
+    def post(url, options = {})
+      request(:post, url, options)
+    end
+
+    # Perform an HTTP PUT request
+    #
+    # @return [Hash] object containing response information
+    def put(url, options = {})
+      request(:put, url, options)
+    end
+
     private
 
     # Perform an HTTP request
     #
     # @return [Hash] object containing response information
-    def request(method, url, body = nil, params = {}, headers = {})
-      url = expand_url(url, params)
-      connection.send(method.to_sym, url, body, headers).env
+    def request(method, url, options = {})
+      url = expand_url(url, options[:params])
+      connection.send(method.to_sym, url, options[:body], options[:headers]).env
     end
 
     # Expands a URI template with the given parameters
