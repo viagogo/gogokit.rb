@@ -1,7 +1,6 @@
 require 'faraday'
 
 module GogoKit
-
   # HTTP Connection methods for {GogoKit::Client}
   module Connection
     private
