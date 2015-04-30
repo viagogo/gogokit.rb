@@ -2,7 +2,93 @@ require 'rspec'
 require 'spec_helper'
 
 describe GogoKit::Client do
-  let(:client) { described_class.new }
+  let(:client) do
+    described_class.new(client_id: 'CK',
+                        client_secret: 'CS')
+  end
+
+  describe '#new' do
+    context 'when options are given' do
+      it 'sets client_id to given value' do
+        expected_client_id = 'my_client_id'
+        client = described_class.new(client_id: expected_client_id)
+        expect(client.client_id).to eq(expected_client_id)
+      end
+
+      it 'sets client_secret to given value' do
+        expected_client_secret = 'my secret'
+        client = described_class.new(client_secret: expected_client_secret)
+        expect(client.client_secret).to eq(expected_client_secret)
+      end
+
+      it 'sets oauth_token_endpoint to given value' do
+        expected_token_url = 'https://api.com/token'
+        client = described_class.new(oauth_token_endpoint: expected_token_url)
+        expect(client.oauth_token_endpoint).to eq(expected_token_url)
+      end
+
+      it 'raises GogoKit::ConfigurationError when :client_id is invalid' do
+        expect { described_class.new(client_id: [50, 1]) }
+          .to raise_error GogoKit::ConfigurationError
+      end
+
+      it 'raises GogoKit::ConfigurationError when :consumer_secret is' \
+      ' invalid' do
+        expect { described_class.new(client_secret: [3, 'A']) }
+          .to raise_error GogoKit::ConfigurationError
+      end
+
+      it 'raises GogoKit::ConfigurationError when :oauth_token_endpoint is' \
+      ' invalid URL' do
+        expect { described_class.new(oauth_token_endpoint: 'http:||invalid.o') }
+          .to raise_error GogoKit::ConfigurationError
+      end
+    end
+
+    context 'when block is given' do
+      it 'passes the current instance to be configured in the block' do
+        actual_client = nil
+        expected_client = described_class.new do |config|
+          config.client_id = 'CI'
+          config.client_secret = 'CS'
+          actual_client = config
+        end
+
+        expect(actual_client.object_id).to equal(expected_client.object_id)
+      end
+
+      it 'raises GogoKit::ConfigurationError when :client_id is invalid' do
+        expected = expect do
+          described_class.new do |config|
+            config.client_id = 50
+          end
+        end
+
+        expected.to raise_error GogoKit::ConfigurationError
+      end
+
+      it 'raises GogoKit::ConfigurationError when :client_secret is invalid' do
+        expected = expect do
+          described_class.new do |config|
+            config.client_secret = 6
+          end
+        end
+
+        expected.to raise_error GogoKit::ConfigurationError
+      end
+
+      it 'raises GogoKit::ConfigurationError when :oauth_token_endpoint is' \
+      ' invalid URL' do
+        expected = expect do
+          described_class.new do |config|
+            config.oauth_token_endpoint = 'https:||invalid.org'
+          end
+        end
+
+        expected.to raise_error GogoKit::ConfigurationError
+      end
+    end
+  end
 
   describe '#user_agent' do
     it 'returns the gem name and version' do
