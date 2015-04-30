@@ -87,4 +87,36 @@ describe 'GogoKit::OAuth' do
       expect(token).to be_an_instance_of(GogoKit::OAuthToken)
     end
   end
+
+  describe '#get_client_access_token' do
+    it 'passes client_credentials grant type to #get_access_token' do
+      expected_grant_type = 'client_credentials'
+      allow(client).to receive(:get_access_token)
+      client.get_client_access_token
+
+      expect(client)
+        .to have_received(:get_access_token) do |actual_grant_type, _|
+          expect(actual_grant_type).to eq(expected_grant_type)
+        end
+    end
+
+    it 'passes given options to #get_access_token' do
+      expected_options = {a: [1, 2], z: 'foo'}
+      allow(client).to receive(:get_access_token)
+      client.get_client_access_token(expected_options)
+
+      expect(client).to have_received(:get_access_token) do |_, actual_options|
+        expect(actual_options).to eq(expected_options)
+      end
+    end
+
+    it 'returns the {GogoKit::OAuthToken} returned by #get_access_token' do
+      expected_token = GogoKit::OAuthToken.new
+      allow(client).to receive(:get_access_token).and_return(expected_token)
+
+      actual_token = client.get_client_access_token
+
+      expect(actual_token).to eq(expected_token)
+    end
+  end
 end

@@ -12,6 +12,7 @@ module GogoKit
     # @see http://viagogo.github.io/developer.viagogo.net/#authentication
     # @param [String] grant_type The grant type to use to get the token
     # @param [Hash] options Token request information
+    # @return [GogoKit::OAuthToken] The OAuth token
     def get_access_token(grant_type, options = {})
       object_from_response(GogoKit::OAuthToken,
                            GogoKit::OAuthTokenRepresenter,
@@ -19,6 +20,16 @@ module GogoKit
                            oauth_token_endpoint,
                            body: token_request_body(grant_type, options),
                            headers: token_request_headers)
+    end
+
+    # Get an OAuth access token for an application.
+    #
+    # @see
+    # http://viagogo.github.io/developer.viagogo.net/#client-credentials-grant
+    # @param [Hash] options Token request information
+    # @return [GogoKit::OAuthToken] The OAuth token
+    def get_client_access_token(options = {})
+      get_access_token('client_credentials', options)
     end
 
     private

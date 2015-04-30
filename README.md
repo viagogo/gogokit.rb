@@ -12,3 +12,7 @@
 
 
 Ruby toolkit for working with the viagogo API
+
+## Troubleshooting on Windows
+
+GogoKit uses SSL for all HTTP requests. On Windows you will need to configure where your certificates live since OpenSSL cannot find one to validate the authenticity. [This post](https://github.com/jnunemaker/httparty/wiki/Troubleshooting-on-Windows) describes how you can get this working on windows.
