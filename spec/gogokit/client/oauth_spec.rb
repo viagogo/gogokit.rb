@@ -3,8 +3,7 @@ require 'spec_helper'
 
 describe 'GogoKit::OAuth' do
   let(:client) do
-    GogoKit::Client.new(client_id: 'CK',
-                        client_secret: 'CS')
+    GogoKit::Client.new(client_id: 'CK', client_secret: 'CS')
   end
 
   describe '#get_access_token' do
@@ -16,29 +15,36 @@ describe 'GogoKit::OAuth' do
 
     it 'performs a request to the oauth_token_endpoint' do
       expected_url = 'http://api.com/token'
+      client = GogoKit::Client.new(client_id: 'client_id',
+                                   client_secret: 'client_secret',
+                                   oauth_token_endpoint: expected_url)
       allow(client).to receive(:oauth_token_endpoint).and_return(expected_url)
-      stub_request(:any, /.*/).to_return(body: '{}')
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
       client.get_access_token('grant_type')
-      expect(a_request(:any, expected_url)).to have_been_made
+
+      expect(client).to have_received(:request).with(anything,
+                                                     expected_url,
+                                                     anything)
     end
 
     it 'passes the given grant_type in the request body' do
       expected_grant_type = 'my_custom_grant_type'
-      stub_request(:any, /.*/).to_return(body: '{}')
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
       client.get_access_token(expected_grant_type, foo: [1, 2])
-      expect(a_request(:any, /.*/)
-             .with do |req|
-               req.body[:grant_type] == expected_grant_type
-             end).to have_been_made
+
+      expect(client).to have_received(:request)  do |_, _, options|
+        expect(options[:body][:grant_type]).to eq(expected_grant_type)
+      end
     end
 
     it 'passes the given options in the request body' do
       expected_body = {foo: [1, 2], scope: 'read:user'}
-      stub_request(:any, /.*/).to_return(body: '{}')
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
       client.get_access_token('grant_type', expected_body)
-      expect(a_request(:any, /.*/)
-                 .with { |req| req.body == expected_body })
-        .to have_been_made
+
+      expect(client).to have_received(:request) do |_, _, options|
+        expect(options[:body]).to eq(expected_body)
+      end
     end
 
     it 'passes application/json Accept header' do
@@ -57,6 +63,22 @@ describe 'GogoKit::OAuth' do
       expect(a_request(:any, /.*/)
                  .with(headers: {'Content-Type' => expected_content_type}))
         .to have_been_made
+    end
+
+    it 'uses Basic Authorization header calculated from credentials' do
+      client_id = 'D92wmmKuAwH2CHjQONxQAr8+jC4='
+      client_secret = 'Uic9N78UNgVRqoLzZ2TAM2nzfs8='
+      expected_basic_header = 'Basic RDkyd21tS3VBd0gyQ0hqUU9OeFFBcjgrakM0PTp' \
+                              'VaWM5Tjc4VU5nVlJxb0x6WjJUQU0ybnpmczg9'
+      client = GogoKit::Client.new(client_id: client_id,
+                                   client_secret: client_secret)
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
+      client.get_access_token('grant_type')
+
+      expect(client).to have_received(:request) do |_, _, options|
+        expect(options[:headers][:authorization])
+          .to eq(expected_basic_header)
+      end
     end
 
     it 'returns {GogoKit::OAuthToken} created from the response' do

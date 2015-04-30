@@ -1,5 +1,4 @@
 require 'base64'
-require 'open-uri'
 require 'gogokit/oauth_token'
 require 'gogokit/utils'
 
@@ -31,10 +30,12 @@ module GogoKit
     end
 
     def token_request_headers
-      # TODO: Calculate Basic Authorization header
+      credentials = "#{client_id}:#{client_secret}"
+      basic_header_value = Base64.encode64(credentials).gsub("\n", '')
       {
         content_type: 'application/x-www-form-urlencoded',
-        accept: 'application/json'
+        accept: 'application/json',
+        authorization: "Basic #{basic_header_value}"
       }
     end
   end

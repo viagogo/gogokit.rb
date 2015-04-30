@@ -21,7 +21,8 @@ module GogoKit
 
     def connection
       Faraday::Connection.new(nil, connection_options) do |builder|
-        # Set Faraday's HTTP adapter
+        builder.use Faraday::Request::UrlEncoded
+
         builder.adapter Faraday.default_adapter
       end
     end
