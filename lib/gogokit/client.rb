@@ -16,7 +16,8 @@ module GogoKit
     include GogoKit::OAuth
 
     attr_accessor :client_id,
-                  :client_secret
+                  :client_secret,
+                  :access_token
 
     # Initializes a new {GogoKit::Client}
     #
@@ -95,6 +96,8 @@ module GogoKit
     def request(method, url, options = {})
       options ||= {}
       url = expand_url(url, options[:params])
+      try_add_authorization_header(options)
+
       connection.send(method.to_sym, url, options[:body], options[:headers]).env
     end
 
@@ -113,11 +116,21 @@ module GogoKit
       template.expand(params || {}).to_s
     end
 
+    def try_add_authorization_header(options)
+      options[:headers] ||= {}
+      return unless options[:headers]['Authorization'].nil? &&
+                    options[:headers][:authorization].nil?
+
+      # Add an Authorization header since we don't have one yet
+      options[:headers]['Authorization'] = "Bearer #{access_token}"
+    end
+
     # @return [Hash]
     def credentials
       {
         client_id: client_id,
-        client_secret: client_secret
+        client_secret: client_secret,
+        access_token: access_token
       }
     end
 
