@@ -7,19 +7,33 @@ module GogoKit
   module Configuration
     attr_writer :oauth_token_endpoint
 
-    # Gets the endpoint for obtaining OAuth access tokens
+    # The endpoint for the API root resource
+    def api_root_endpoint
+      nil
+    end
+
+    # The endpoint for obtaining OAuth access tokens
     def oauth_token_endpoint
       @oauth_token_endpoint || GogoKit::Default::OAUTH_TOKEN_ENDPOINT
     end
 
     private
 
-    def validate_configuration!
-      return if oauth_token_endpoint =~ /\A#{URI.regexp}\z/
+    def endpoints
+      {
+        # api_root_endpoint: api_root_endpoint,
+        oauth_token_endpoint: oauth_token_endpoint
+      }
+    end
 
-      fail(ConfigurationError,
-           'Invalid :oauth_token_endpoint specified: ' \
-           "#{oauth_token_endpoint.inspect} must be a valid URL")
+    def validate_configuration!
+      endpoints.each do |endpoint, value|
+        next if !value.nil? && value =~ /\A#{URI.regexp}\z/
+
+        fail(ConfigurationError,
+             "Invalid #{endpoint} specified: " \
+             "#{value.inspect} must be a valid URL")
+      end
     end
   end
 end

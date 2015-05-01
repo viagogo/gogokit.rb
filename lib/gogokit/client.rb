@@ -4,6 +4,7 @@ require 'gogokit/configuration'
 require 'gogokit/connection'
 require 'gogokit/error'
 require 'gogokit/client/oauth'
+require 'gogokit/client/root'
 require 'gogokit/version'
 
 module GogoKit
@@ -13,7 +14,7 @@ module GogoKit
   class Client
     include GogoKit::Configuration
     include GogoKit::Connection
-    include GogoKit::OAuth
+    include GogoKit::Client::OAuth
 
     attr_accessor :client_id,
                   :client_secret,
