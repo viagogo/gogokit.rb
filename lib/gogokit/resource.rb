@@ -1,4 +1,3 @@
-require 'roar/decorator'
 require 'roar/json'
 require 'roar/json/hal'
 
@@ -8,12 +7,11 @@ module GogoKit
     attr_accessor :links
   end
 
-  # A {Representable::Decorator} for {GogoKit::Resource}
-  class ResourceRepresenter < Roar::Decorator
+  # A base representer module for every {GogoKit::Resource}
+  module ResourceRepresenter
     include Roar::Hypermedia
     include Roar::JSON
     include Roar::JSON::HAL
-    include Roar::Decorator::HypermediaConsumer
 
     link(:self) { 'http://self' }
   end

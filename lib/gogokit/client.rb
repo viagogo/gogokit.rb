@@ -5,6 +5,7 @@ require 'gogokit/connection'
 require 'gogokit/error'
 require 'gogokit/client/oauth'
 require 'gogokit/client/root'
+require 'gogokit/client/search'
 require 'gogokit/version'
 
 module GogoKit
@@ -16,6 +17,7 @@ module GogoKit
     include GogoKit::Connection
     include GogoKit::Client::OAuth
     include GogoKit::Client::Root
+    include GogoKit::Client::Search
 
     attr_accessor :client_id,
                   :client_secret,

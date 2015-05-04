@@ -7,7 +7,9 @@ module GogoKit
   class Root < Resource
   end
 
-  # A {Representable::Decorator} for {GogoKit::Root}
-  class RootRepresenter < ResourceRepresenter
+  # A representer for {GogoKit::Root}
+  module RootRepresenter
+    include Representable::JSON
+    include GogoKit::ResourceRepresenter
   end
 end

@@ -12,7 +12,7 @@ module GogoKit
                     response[:status] > 299 ||
                     response[:body].nil?
 
-      klass_representer.new(klass.new).from_json(response[:body])
+      klass.new.extend(klass_representer).from_json(response[:body])
     end
   end
 end
