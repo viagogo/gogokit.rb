@@ -5,11 +5,12 @@ module GogoKit
   # Configuration options for {GogoKit::Client} or falls back to
   # {GogoKit::Default}
   module Configuration
-    attr_writer :oauth_token_endpoint
+    attr_writer :api_root_endpoint,
+                :oauth_token_endpoint
 
     # The endpoint for the API root resource
     def api_root_endpoint
-      nil
+      @api_root_endpoint || GogoKit::Default::API_ROOT_ENDPOINT
     end
 
     # The endpoint for obtaining OAuth access tokens
@@ -21,7 +22,7 @@ module GogoKit
 
     def endpoints
       {
-        # api_root_endpoint: api_root_endpoint,
+        api_root_endpoint: api_root_endpoint,
         oauth_token_endpoint: oauth_token_endpoint
       }
     end

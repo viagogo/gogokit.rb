@@ -12,7 +12,7 @@ describe GogoKit::Configuration do
       it 'return default API root endpoint' do
         client = GogoKit::Client.new
         expect(client.api_root_endpoint)
-            .to eq(GogoKit::Default::OAUTH_TOKEN_ENDPOINT)
+          .to eq(GogoKit::Default::API_ROOT_ENDPOINT)
       end
     end
   end

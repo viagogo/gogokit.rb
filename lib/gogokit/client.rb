@@ -15,6 +15,7 @@ module GogoKit
     include GogoKit::Configuration
     include GogoKit::Connection
     include GogoKit::Client::OAuth
+    include GogoKit::Client::Root
 
     attr_accessor :client_id,
                   :client_secret,

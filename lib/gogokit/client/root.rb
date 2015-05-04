@@ -1,4 +1,5 @@
 require 'gogokit/utils'
+require 'gogokit/resource/root'
 
 module GogoKit
   class Client
@@ -11,8 +12,12 @@ module GogoKit
       # @see http://viagogo.github.io/developer.viagogo.net/#root-endpoint
       # @param [Hash] options Optional options
       # @return [GogoKit::Resource::Root] The root resource
-      def get_root
-        nil
+      def get_root(options = {})
+        object_from_response(GogoKit::Root,
+                             GogoKit::RootRepresenter,
+                             :get,
+                             api_root_endpoint,
+                             options)
       end
     end
   end
