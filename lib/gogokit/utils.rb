@@ -6,7 +6,7 @@ module GogoKit
                              klass_representer,
                              method,
                              url,
-                             options = {})
+                             options)
       response = send(method.to_sym, url, options)
       return nil if response[:status] < 200 ||
                     response[:status] > 299 ||
