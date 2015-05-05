@@ -21,6 +21,18 @@ describe GogoKit::Client do
         expect(client.client_secret).to eq(expected_client_secret)
       end
 
+      it 'sets access_token to given value' do
+        expected_access_token = 'asdfda55/'
+        client = described_class.new(access_token: expected_access_token)
+        expect(client.access_token).to eq(expected_access_token)
+      end
+
+      it 'sets api_root_endpoint to given value' do
+        expected_root_endpoint = 'https://api.com/root'
+        client = described_class.new(api_root_endpoint: expected_root_endpoint)
+        expect(client.api_root_endpoint).to eq(expected_root_endpoint)
+      end
+
       it 'sets oauth_token_endpoint to given value' do
         expected_token_url = 'https://api.com/token'
         client = described_class.new(oauth_token_endpoint: expected_token_url)
@@ -35,6 +47,17 @@ describe GogoKit::Client do
       it 'raises GogoKit::ConfigurationError when :consumer_secret is' \
       ' invalid' do
         expect { described_class.new(client_secret: [3, 'A']) }
+          .to raise_error GogoKit::ConfigurationError
+      end
+
+      it 'raises GogoKit::ConfigurationError when :access_token is invalid' do
+        expect { described_class.new(access_token: [3, 'A']) }
+          .to raise_error GogoKit::ConfigurationError
+      end
+
+      it 'raises GogoKit::ConfigurationError when :api_root_endpoint is' \
+      ' invalid URL' do
+        expect { described_class.new(api_root_endpoint: 'http:||invalid.o') }
           .to raise_error GogoKit::ConfigurationError
       end
 
@@ -71,6 +94,27 @@ describe GogoKit::Client do
         expected = expect do
           described_class.new do |config|
             config.client_secret = 6
+          end
+        end
+
+        expected.to raise_error GogoKit::ConfigurationError
+      end
+
+      it 'raises GogoKit::ConfigurationError when :access_token is invalid' do
+        expected = expect do
+          described_class.new do |config|
+            config.access_token = 6
+          end
+        end
+
+        expected.to raise_error GogoKit::ConfigurationError
+      end
+
+      it 'raises GogoKit::ConfigurationError when :api_root_endpoint is' \
+      ' invalid URL' do
+        expected = expect do
+          described_class.new do |config|
+            config.api_root_endpoint = 'https:||invalid.org'
           end
         end
 
@@ -197,6 +241,47 @@ describe GogoKit::Client do
                         headers: {'Accept' => expected_accept})
             expect(a_request(:any, /.*/)
                        .with(headers: {'Accept' => expected_accept}))
+              .to have_been_made
+          end
+        end
+
+        context 'Authorization header is not given' do
+          it 'makes an HTTP request with Bearer Authorization header' do
+            access_token = 'efadfdag.dafe1234.ldasfn'
+            expected_authorization = "Bearer #{access_token}"
+            stub_request(:any, /.*/)
+            client.access_token = access_token
+            client.send(:request,
+                        method,
+                        'https://api.com')
+            expect(a_request(:any, /.*/)
+                    .with(headers: {'Authorization' => expected_authorization}))
+              .to have_been_made
+          end
+        end
+
+        context 'Authorization header is given' do
+          it 'makes an HTTP request with the given Authorization header' do
+            expected_authorization = 'Custom abc'
+            stub_request(:any, /.*/)
+            client.send(:request,
+                        method,
+                        'https://api.com',
+                        headers: {'Authorization' => expected_authorization})
+            expect(a_request(:any, /.*/)
+                    .with(headers: {'Authorization' => expected_authorization}))
+              .to have_been_made
+          end
+
+          it 'makes an HTTP request with the given :authorization header' do
+            expected_authorization = 'Custom abc'
+            stub_request(:any, /.*/)
+            client.send(:request,
+                        method,
+                        'https://api.com',
+                        headers: {authorization: expected_authorization})
+            expect(a_request(:any, /.*/)
+                    .with(headers: {'Authorization' => expected_authorization}))
               .to have_been_made
           end
         end

@@ -1,5 +1,4 @@
 require 'ostruct'
-require 'representable/decorator'
 require 'representable/json'
 
 module GogoKit
@@ -9,8 +8,8 @@ module GogoKit
   class OAuthToken < OpenStruct
   end
 
-  # A {Representable::Decorator} for {GogoKit::OAuthToken}
-  class OAuthTokenRepresenter < Representable::Decorator
+  # A representer for {GogoKit::OAuthToken}
+  module OAuthTokenRepresenter
     include Representable::JSON
 
     property :access_token

@@ -1,7 +1,7 @@
 require 'rspec'
 require 'spec_helper'
 
-describe 'GogoKit::OAuth' do
+describe 'GogoKit::Client::OAuth' do
   let(:client) do
     GogoKit::Client.new(client_id: 'CK', client_secret: 'CS')
   end
