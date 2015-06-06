@@ -7,6 +7,21 @@ module GogoKit
     module Category
       include GogoKit::Utils
 
+      # Retrieves a category by ID
+      #
+      # @param [Integer] category_id The ID of the category to be retrieved
+      # @param [Hash] options Optional options
+      # @return [GogoKit::Category] The requested category
+      def get_category(category_id, options = {})
+        root = get_root
+        object_from_response(GogoKit::Category,
+                             GogoKit::CategoryRepresenter,
+                             :get,
+                             "#{root.links['self'].href}/categories/" \
+                             "#{category_id}",
+                             options)
+      end
+
       # Retrieves the genre categories (e.g. Sports, Concerts, Theatre)
       #
       # @see http://viagogo.github.io/developer.viagogo.net/#viagogogenres
