@@ -12,7 +12,7 @@ module GogoKit
       # @see http://viagogo.github.io/developer.viagogo.net/#viagogosearch
       # @param [String] query The query text to be used to match entities
       # @param [Hash] options Optional options
-      # @return [GogoKit::Resource::PagedResource] The results of the query
+      # @return [GogoKit::PagedResource] The results of the query
       def search(query, options = {})
         options[:params] ||= {}
         options[:params] = options[:params].merge(query: query)

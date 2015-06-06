@@ -3,6 +3,7 @@ require 'addressable/template'
 require 'gogokit/configuration'
 require 'gogokit/connection'
 require 'gogokit/error'
+require 'gogokit/client/category'
 require 'gogokit/client/oauth'
 require 'gogokit/client/root'
 require 'gogokit/client/search'
@@ -15,6 +16,7 @@ module GogoKit
   class Client
     include GogoKit::Configuration
     include GogoKit::Connection
+    include GogoKit::Client::Category
     include GogoKit::Client::OAuth
     include GogoKit::Client::Root
     include GogoKit::Client::Search
