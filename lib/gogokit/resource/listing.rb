@@ -34,46 +34,46 @@ module GogoKit
     property :seating,
              extend: GogoKit::SeatingRepresenter,
              class: GogoKit::Seating,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :pickup_available
     property :download_available
     property :ticket_price,
              extend: GogoKit::MoneyRepresenter,
              class: GogoKit::Money,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :estimated_ticket_price,
              extend: GogoKit::MoneyRepresenter,
              class: GogoKit::Money,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :estimated_total_ticket_price,
              extend: GogoKit::MoneyRepresenter,
              class: GogoKit::Money,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :estimated_booking_fee,
              extend: GogoKit::MoneyRepresenter,
              class: GogoKit::Money,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :estimated_shipping,
              extend: GogoKit::MoneyRepresenter,
              class: GogoKit::Money,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :estimated_vat,
              extend: GogoKit::MoneyRepresenter,
              class: GogoKit::Money,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :estimated_total_charge,
              extend: GogoKit::MoneyRepresenter,
              class: GogoKit::Money,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :ticket_type,
              extend: GogoKit::TicketTypeRepresenter,
              class: GogoKit::TicketType,
-             skip_parse: -> (fragment, _) { fragment.nil? },
+             skip_parse: ->(fragment, _) { fragment.nil? },
              embedded: true
     collection :listing_notes,
                extend: GogoKit::ListingNoteRepresenter,
                class: GogoKit::ListingNote,
-               skip_parse: -> (fragment, _) { fragment.nil? },
+               skip_parse: ->(fragment, _) { fragment.nil? },
                embedded: true
   end
 

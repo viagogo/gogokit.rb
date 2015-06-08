@@ -26,7 +26,7 @@ module GogoKit
     property :min_ticket_price,
              extend: GogoKit::MoneyRepresenter,
              class: GogoKit::Money,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :min_event_date, type: DateTime
     property :max_event_date, type: DateTime
   end

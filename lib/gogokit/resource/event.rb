@@ -32,13 +32,13 @@ module GogoKit
     property :min_ticket_price,
              class: GogoKit::Money,
              extend: GogoKit::MoneyRepresenter,
-             skip_parse: -> (fragment, _) { fragment.nil? }
+             skip_parse: ->(fragment, _) { fragment.nil? }
     property :notes_html
     property :restrictions_html
     property :venue,
              class: Venue,
              extend: VenueRepresenter,
-             skip_parse: -> (fragment, _) { fragment.nil? },
+             skip_parse: ->(fragment, _) { fragment.nil? },
              embedded: true
   end
 
