@@ -1,0 +1,386 @@
+{
+  "total_items": 98,
+  "page": 1,
+  "page_size": 30,
+  "_links": {
+    "self": {
+      "href": "https://api.viagogo.net/v2/currencies?page=1&page_size=30",
+      "title": null,
+      "templated": false
+    },
+    "next": {
+      "href": "https://api.viagogo.net/v2/currencies?page=2&page_size=30",
+      "title": null,
+      "templated": false
+    },
+    "last": {
+      "href": "https://api.viagogo.net/v2/currencies?page=4&page_size=30",
+      "title": null,
+      "templated": false
+    }
+  },
+  "_embedded": {
+    "items": [
+      {
+        "code": "AED",
+        "name": "United Arab Emirates Dirham",
+        "symbol": "AED",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/AED",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "ALL",
+        "name": "Albanian Lek",
+        "symbol": "Lek",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/ALL",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AMD",
+        "name": "Armenian Dram",
+        "symbol": "դր.",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/AMD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "ARS",
+        "name": "Argentine Peso",
+        "symbol": "AR$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/ARS",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AUD",
+        "name": "Australian Dollar",
+        "symbol": "A$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/AUD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BAM",
+        "name": "Bosnia and Herzegovina Convertible Mark",
+        "symbol": "KM",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BAM",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BDT",
+        "name": "Bangladeshi Taka",
+        "symbol": "৳",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BDT",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BGN",
+        "name": "Bulgarian Lev",
+        "symbol": "лв.",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BGN",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BHD",
+        "name": "Bahraini Dinar",
+        "symbol": "BHD",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BHD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BND",
+        "name": "Brunei Dollar",
+        "symbol": "$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BND",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BOB",
+        "name": "Bolivian Boliviano",
+        "symbol": "Bs.",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BOB",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BRL",
+        "name": "Brazilian Real",
+        "symbol": "R$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BRL",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BYR",
+        "name": "Belarusian Ruble",
+        "symbol": "р.",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BYR",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BZD",
+        "name": "Belizean Dollar",
+        "symbol": "$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/BZD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "CAD",
+        "name": "Canadian Dollar",
+        "symbol": "C$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/CAD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "CHF",
+        "name": "Swiss Franc",
+        "symbol": "CHF",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/CHF",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "CLP",
+        "name": "Chilean Peso",
+        "symbol": "CL$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/CLP",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "CNY",
+        "name": "Chinese Yuan Renmibi",
+        "symbol": "¥",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/CNY",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "COP",
+        "name": "Colombian Peso",
+        "symbol": "COL$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/COP",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "CRC",
+        "name": "Costa Rican Colón",
+        "symbol": "₡",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/CRC",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "CSD",
+        "name": "Serbian Dinar",
+        "symbol": "Din.",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/CSD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "CZK",
+        "name": "Czech Republic Koruna",
+        "symbol": "Kč",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/CZK",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "DKK",
+        "name": "Danish Krone",
+        "symbol": "DKK",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/DKK",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "DOP",
+        "name": "Dominican Peso",
+        "symbol": "RD$",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/DOP",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "DZD",
+        "name": "Algerian Dinar",
+        "symbol": "DZD",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/DZD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "EGP",
+        "name": "Egyptian Pound",
+        "symbol": "£",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/EGP",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "ETB",
+        "name": "Ethiopian Birr",
+        "symbol": "ETB",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/ETB",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/EUR",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "GBP",
+        "name": "British Pound Sterling",
+        "symbol": "£",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/GBP",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "GEL",
+        "name": "Georgian Lari",
+        "symbol": "Lari",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/currencies/GEL",
+            "title": null,
+            "templated": false
+          }
+        }
+      }
+    ]
+  }
+}

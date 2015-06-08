@@ -1,0 +1,356 @@
+{
+  "total_items": 223,
+  "page": 1,
+  "page_size": 30,
+  "_links": {
+    "self": {
+      "href": "https://api.viagogo.net/v2/countries?page=1&page_size=30",
+      "title": null,
+      "templated": false
+    },
+    "next": {
+      "href": "https://api.viagogo.net/v2/countries?page=2&page_size=30",
+      "title": null,
+      "templated": false
+    },
+    "last": {
+      "href": "https://api.viagogo.net/v2/countries?page=8&page_size=30",
+      "title": null,
+      "templated": false
+    }
+  },
+  "_embedded": {
+    "items": [
+      {
+        "code": "AL",
+        "name": "Albania",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AL",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "DZ",
+        "name": "Algeria",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/DZ",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AS",
+        "name": "American Samoa",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AS",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AD",
+        "name": "Andorra",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AO",
+        "name": "Angola",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AO",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AI",
+        "name": "Anguilla",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AI",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AG",
+        "name": "Antigua",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AG",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AR",
+        "name": "Argentina",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AR",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AM",
+        "name": "Armenia",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AM",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AW",
+        "name": "Aruba",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AW",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AU",
+        "name": "Australia",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AU",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AT",
+        "name": "Austria",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AT",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "AZ",
+        "name": "Azerbaijan",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/AZ",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BS",
+        "name": "Bahamas",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BS",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BH",
+        "name": "Bahrain",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BH",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BD",
+        "name": "Bangladesh",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BD",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BB",
+        "name": "Barbados",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BB",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BY",
+        "name": "Belarus",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BY",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BE",
+        "name": "Belgium",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BE",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BZ",
+        "name": "Belize",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BZ",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BJ",
+        "name": "Benin",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BJ",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BM",
+        "name": "Bermuda",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BM",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BT",
+        "name": "Bhutan",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BT",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BO",
+        "name": "Bolivia",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BO",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "XB",
+        "name": "Bonaire",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/XB",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BA",
+        "name": "Bosnia and Herzegovina",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BA",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BW",
+        "name": "Botswana",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BW",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BR",
+        "name": "Brazil",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BR",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "XS",
+        "name": "British Somaliland",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/XS",
+            "title": null,
+            "templated": false
+          }
+        }
+      },
+      {
+        "code": "BN",
+        "name": "Brunei",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/countries/BN",
+            "title": null,
+            "templated": false
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "id": 761,
+    "name": "Barbados",
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/metroareas/761",
+            "title": null,
+            "templated": false
+        },
+        "metroarea:venues": {
+            "href": "https://api.viagogo.net/v2/venues?metro_area_id=761",
+            "title": null,
+            "templated": false
+        },
+        "metroarea:events": {
+            "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=761",
+            "title": null,
+            "templated": false
+        }
+    }
+}

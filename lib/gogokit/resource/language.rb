@@ -1,13 +1,13 @@
 require 'gogokit/resource'
 
 module GogoKit
-  # @see http://viagogo.github.io/developer.viagogo.net/#country
-  class Country < Resource
+  # @see http://viagogo.github.io/developer.viagogo.net/#language
+  class Language < Resource
     attr_accessor :code,
                   :name
   end
 
-  module CountryRepresenter
+  module LanguageRepresenter
     include Representable::JSON
     include GogoKit::ResourceRepresenter
 
@@ -15,13 +15,13 @@ module GogoKit
     property :name
   end
 
-  module CountriesRepresenter
+  module LanguagesRepresenter
     include Representable::JSON
     include GogoKit::PagedResourceRepresenter
 
     collection :items,
-               class: Country,
-               extend: CountryRepresenter,
+               class: Language,
+               extend: LanguageRepresenter,
                embedded: true
   end
 end

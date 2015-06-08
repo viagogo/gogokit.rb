@@ -1,0 +1,356 @@
+{
+    "total_items": 35,
+    "page": 1,
+    "page_size": 30,
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/languages?page=1&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "next": {
+            "href": "https://api.viagogo.net/v2/languages?page=2&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "last": {
+            "href": "https://api.viagogo.net/v2/languages?page=2&page_size=30",
+            "title": null,
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "items": [
+            {
+                "code": "id-id",
+                "name": "Bahasa Indonesia",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/id-id",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "cs-cz",
+                "name": "Čeština",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/cs-cz",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "da-dk",
+                "name": "Dansk",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/da-dk",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "de-de",
+                "name": "Deutsch",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/de-de",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "en-au",
+                "name": "English (Australia)",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/en-au",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "en-gb",
+                "name": "English (UK)",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/en-gb",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "en-us",
+                "name": "English (US)",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/en-us",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "es-es",
+                "name": "Español",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/es-es",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "es-ar",
+                "name": "Español (Argentina)",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/es-ar",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "es-co",
+                "name": "Español (Colombiano)",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/es-co",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "es-mx",
+                "name": "Español (Mexicano)",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/es-mx",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "fr-fr",
+                "name": "Français",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/fr-fr",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "it-it",
+                "name": "Italiano",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/it-it",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "lv-lv",
+                "name": "Latvian",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/lv-lv",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "hu-hu",
+                "name": "Magyar",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/hu-hu",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "ms-my",
+                "name": "Malay",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/ms-my",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "nl-nl",
+                "name": "Nederlands",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/nl-nl",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "nb-no",
+                "name": "Norsk",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/nb-no",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "pl-pl",
+                "name": "Polski",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/pl-pl",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "pt-pt",
+                "name": "Português",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/pt-pt",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "pt-br",
+                "name": "Português (Brasil)",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/pt-br",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "sk-sk",
+                "name": "Slovenčina",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/sk-sk",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "sl-si",
+                "name": "Slovenščina",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/sl-si",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "fi-fi",
+                "name": "Suomi",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/fi-fi",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "sv-se",
+                "name": "Svenska",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/sv-se",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "tr-tr",
+                "name": "Türkçe",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/tr-tr",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "el-gr",
+                "name": "Ελληνικά",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/el-gr",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "ru-ru",
+                "name": "Русский",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/ru-ru",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "he-il",
+                "name": "עברית",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/he-il",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "code": "ar-sa",
+                "name": "العربية",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/languages/ar-sa",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "id": 24579869,
+    "number_of_tickets": 8,
+    "seating": {
+        "section": "General Admission",
+        "row": "",
+        "seat_from": null,
+        "seat_to": null
+    },
+    "pickup_available": false,
+    "download_available": false,
+    "ticket_price": {
+        "amount": 87.5,
+        "currency_code": "GBP",
+        "display": "£87.50"
+    },
+    "estimated_ticket_price": {
+        "amount": 133.57,
+        "currency_code": "USD",
+        "display": "$133.57"
+    },
+    "estimated_total_ticket_price": {
+        "amount": 1068.56,
+        "currency_code": "USD",
+        "display": "$1,068.56"
+    },
+    "estimated_booking_fee": {
+        "amount": 160.28,
+        "currency_code": "USD",
+        "display": "$160.28"
+    },
+    "estimated_shipping": {
+        "amount": 9.08,
+        "currency_code": "USD",
+        "display": "$9.08"
+    },
+    "estimated_vat": {
+        "amount": 12.82,
+        "currency_code": "USD",
+        "display": "$12.82"
+    },
+    "estimated_total_charge": {
+        "amount": 1250.75,
+        "currency_code": "USD",
+        "display": "$1,250.75"
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/listings/24579869",
+            "title": null,
+            "templated": false
+        },
+        "listing:event": {
+            "href": "https://api.viagogo.net/v2/events/735160",
+            "title": null,
+            "templated": false
+        },
+        "listing:purchasepreview": {
+            "href": "https://api.viagogo.net/v2/listings/24579869/purchasepreview",
+            "title": "Buy",
+            "templated": false
+        },
+        "listing:deliverymethods": {
+            "href": "https://api.viagogo.net/v2/listings/24579869/deliverymethods",
+            "title": null,
+            "templated": false
+        },
+        "listing:webpage": {
+            "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24579869&eventId=735160&quantity=8",
+            "title": "Buy",
+            "templated": false
+        },
+        "listing:localwebpage": {
+            "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24579869&eventId=735160&quantity=8",
+            "title": "Buy",
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "listing_notes": [],
+        "ticket_type": {
+            "type": "ETicket",
+            "name": "E-Tickets",
+            "_links": {
+                "self": {
+                    "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                    "title": null,
+                    "templated": false
+                }
+            }
+        }
+    }
+}

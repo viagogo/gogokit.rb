@@ -1,0 +1,956 @@
+{
+    "total_items": 22431,
+    "page": 1,
+    "page_size": 30,
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/venues?page=1&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "next": {
+            "href": "https://api.viagogo.net/v2/venues?page=2&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "last": {
+            "href": "https://api.viagogo.net/v2/venues?page=748&page_size=30",
+            "title": null,
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "items": [
+            {
+                "id": 12797,
+                "name": "Comunal Stadium",
+                "address_1": "Avinguda de Salou",
+                "address_2": null,
+                "state_province": null,
+                "postal_code": "AD500",
+                "city": "Andorra la Vella",
+                "latitude": 42.5047,
+                "longitude": 1.5173,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/12797",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AD",
+                        "name": "Andorra",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AD",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 12801,
+                "name": "TBA Andorra",
+                "address_1": "Andorra la Vella",
+                "address_2": null,
+                "state_province": null,
+                "postal_code": "AD500",
+                "city": "Andorra la Vella",
+                "latitude": 42.5075,
+                "longitude": 1.5218,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/12801",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AD",
+                        "name": "Andorra",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AD",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 21667,
+                "name": "Centro de Congresos de Andorra",
+                "address_1": "Plaça del Poble, s/n",
+                "address_2": "",
+                "state_province": "Andorra",
+                "postal_code": "AD500",
+                "city": "Andorra la Vella",
+                "latitude": 42.5069,
+                "longitude": 1.5224,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/21667",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AD",
+                        "name": "Andorra",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AD",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 21669,
+                "name": "Centre de Congressos",
+                "address_1": "Plaça del Poble",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "AD500",
+                "city": "Andorra la Vella",
+                "latitude": 42.5071,
+                "longitude": 1.5225,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/21669",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AD",
+                        "name": "Andorra",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AD",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 6603,
+                "name": "Dubai Exiles Rugby Club",
+                "address_1": "Al Awir Road",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "0000",
+                "city": "Dubai",
+                "latitude": 25.1843,
+                "longitude": 55.3254,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/6603",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 8537,
+                "name": "Emirates Palace",
+                "address_1": "West End Corniche",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "P.O. Box 39999",
+                "city": "Abu Dhabi",
+                "latitude": 24.4606,
+                "longitude": 54.3181,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/8537",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 8697,
+                "name": "The 7s",
+                "address_1": "Al Ain Road",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "0000",
+                "city": "Dubai",
+                "latitude": 24.9961,
+                "longitude": 55.4719,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/8697",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 8704,
+                "name": "Nad Al Sheba Racecourse",
+                "address_1": "Nad Al Sheba 1",
+                "address_2": "",
+                "state_province": "Dubai",
+                "postal_code": null,
+                "city": "Dubai ",
+                "latitude": 25.1619,
+                "longitude": 55.3105,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/8704",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 9573,
+                "name": "Yas Marina Circuit",
+                "address_1": "Yas Island",
+                "address_2": null,
+                "state_province": null,
+                "postal_code": " ",
+                "city": "Abu Dhabi",
+                "latitude": 24.4672,
+                "longitude": 54.6031,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/9573",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 10389,
+                "name": "Sheikh Zayed Stadium",
+                "address_1": "Al Khaleej Al Arabi Street",
+                "address_2": null,
+                "state_province": null,
+                "postal_code": "P.O.BOX 116162",
+                "city": "Abu Dhabi",
+                "latitude": 24.4161,
+                "longitude": 54.4536,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/10389",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 10466,
+                "name": "Dubai Tennis Stadium",
+                "address_1": "The Aviation Club",
+                "address_2": "",
+                "state_province": null,
+                "postal_code": "0000",
+                "city": "Dubai",
+                "latitude": 25.2429,
+                "longitude": 55.3425,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/10466",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 10801,
+                "name": "Meydan Racecourse",
+                "address_1": "Al Meydan Road",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "P.O. BOX 9305",
+                "city": "Dubai",
+                "latitude": 25.1603,
+                "longitude": 55.3024,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/10801",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 13236,
+                "name": "TBA United Arab Emirates",
+                "address_1": " ",
+                "address_2": null,
+                "state_province": "United Arab Emirates",
+                "postal_code": "123",
+                "city": "Abu Dhabi",
+                "latitude": null,
+                "longitude": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/13236",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 13783,
+                "name": "Zayed Sports City",
+                "address_1": "  ",
+                "address_2": "",
+                "state_province": "United Arab Emirates",
+                "postal_code": "",
+                "city": "Abu Dhabi",
+                "latitude": 24.4119,
+                "longitude": 54.456,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/13783",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 13791,
+                "name": "Mohammed Bin Zayed Stadium",
+                "address_1": " ",
+                "address_2": "",
+                "state_province": "United Arab Emirates",
+                "postal_code": "",
+                "city": "Abu Dhabi",
+                "latitude": null,
+                "longitude": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/13791",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 16310,
+                "name": "Du Arena",
+                "address_1": "Yas Island",
+                "address_2": null,
+                "state_province": null,
+                "postal_code": " ",
+                "city": "Abu Dhabi",
+                "latitude": 24.4659,
+                "longitude": 54.5976,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/16310",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 17542,
+                "name": "Dubai Media City",
+                "address_1": "Al Sufouh",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": " ",
+                "city": "Dubai",
+                "latitude": 25.0924,
+                "longitude": 55.1515,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/17542",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 18002,
+                "name": "Dubai World Trade Centre",
+                "address_1": "Sheikh Zayed Road",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "04 332 1000",
+                "city": "Dubai",
+                "latitude": 25.2711,
+                "longitude": 55.3075,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/18002",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 18951,
+                "name": "Emaar Boulevard",
+                "address_1": "Downtown Dubai",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "0",
+                "city": "Dubai",
+                "latitude": 25.1896,
+                "longitude": 55.2732,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/18951",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 18980,
+                "name": "Atlantis, The Palm",
+                "address_1": "The Palm Jumeira",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": " ",
+                "city": "Dubai",
+                "latitude": 25.1328,
+                "longitude": 55.1189,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/18980",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 18981,
+                "name": "X Do  not use",
+                "address_1": "Sheikh Zayed Rd",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": " ",
+                "city": "Dubai",
+                "latitude": 25.2255,
+                "longitude": 55.2853,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/18981",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 19131,
+                "name": "Madinat Theatre",
+                "address_1": "Jumeirah Beach Rd",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "00000",
+                "city": "Dubai",
+                "latitude": 25.1352,
+                "longitude": 55.188,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/19131",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 19246,
+                "name": "University City of Sharjah",
+                "address_1": "",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": " ",
+                "city": "Kalba",
+                "latitude": 25.0229,
+                "longitude": 56.3538,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/19246",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 19283,
+                "name": "Boracay Night Club",
+                "address_1": "Salahuddin Rd",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": " ",
+                "city": "Dubai",
+                "latitude": 25.2711,
+                "longitude": 55.3075,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/19283",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 19771,
+                "name": "Dubai Festival City",
+                "address_1": "Dubai",
+                "address_2": "P.O.Box 49776",
+                "state_province": "",
+                "postal_code": "1",
+                "city": "Dubai",
+                "latitude": 25.2206,
+                "longitude": 55.3538,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/19771",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 19772,
+                "name": "Jumeirah Golf Estates",
+                "address_1": "Emirates Road",
+                "address_2": "P.O. Box 644877",
+                "state_province": "",
+                "postal_code": "1",
+                "city": "Dubai",
+                "latitude": 25.0225,
+                "longitude": 55.1627,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/19772",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 19917,
+                "name": "du Forum",
+                "address_1": "Yas Island",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "ABU DHABI",
+                "city": "Abu Dhabi",
+                "latitude": 24.4958,
+                "longitude": 54.604,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/19917",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 20354,
+                "name": "The One & Only Royal Mirage",
+                "address_1": "Al Sufouh Rd",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "00000",
+                "city": "Dubai",
+                "latitude": 25.1014,
+                "longitude": 55.1583,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/20354",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 20435,
+                "name": "The Irish Village - Dubai",
+                "address_1": "Century Village",
+                "address_2": "Aviation Club, Garhoud",
+                "state_province": "",
+                "postal_code": "04 282 4750",
+                "city": "Dubai",
+                "latitude": 25.2434,
+                "longitude": 55.3417,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/20435",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 20511,
+                "name": "Qasr Al Hosn Fort",
+                "address_1": "Sheikh Zayed the First Street",
+                "address_2": "",
+                "state_province": "",
+                "postal_code": "ABU DHABI",
+                "city": "Abu Dhabi",
+                "latitude": 24.4667,
+                "longitude": 54.3667,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/venues/20511",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "country": {
+                        "code": "AE",
+                        "name": "United Arab Emirates",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/countries/AE",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,2978 @@
+{
+    "total_items": 37,
+    "page": 1,
+    "page_size": 30,
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net:443/v2/events/735160/listings?page=1&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "next": {
+            "href": "https://api.viagogo.net:443/v2/events/735160/listings?page=2&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "last": {
+            "href": "https://api.viagogo.net:443/v2/events/735160/listings?page=2&page_size=30",
+            "title": null,
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "items": [
+            {
+                "id": 24579869,
+                "number_of_tickets": 8,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 87.5,
+                    "currency_code": "GBP",
+                    "display": "£87.50"
+                },
+                "estimated_ticket_price": {
+                    "amount": 133.57,
+                    "currency_code": "USD",
+                    "display": "$133.57"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 1068.56,
+                    "currency_code": "USD",
+                    "display": "$1,068.56"
+                },
+                "estimated_booking_fee": {
+                    "amount": 160.28,
+                    "currency_code": "USD",
+                    "display": "$160.28"
+                },
+                "estimated_shipping": {
+                    "amount": 9.08,
+                    "currency_code": "USD",
+                    "display": "$9.08"
+                },
+                "estimated_vat": {
+                    "amount": 12.82,
+                    "currency_code": "USD",
+                    "display": "$12.82"
+                },
+                "estimated_total_charge": {
+                    "amount": 1250.75,
+                    "currency_code": "USD",
+                    "display": "$1,250.75"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24579869",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24579869/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24579869/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24579869/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24579869&eventId=735160&quantity=8",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24579869&eventId=735160&quantity=8",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24432368,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 89.3864,
+                    "currency_code": "GBP",
+                    "display": "£89.39"
+                },
+                "estimated_ticket_price": {
+                    "amount": 136.45,
+                    "currency_code": "USD",
+                    "display": "$136.45"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 818.73,
+                    "currency_code": "USD",
+                    "display": "$818.73"
+                },
+                "estimated_booking_fee": {
+                    "amount": 122.81,
+                    "currency_code": "USD",
+                    "display": "$122.81"
+                },
+                "estimated_shipping": {
+                    "amount": 9.08,
+                    "currency_code": "USD",
+                    "display": "$9.08"
+                },
+                "estimated_vat": {
+                    "amount": 9.83,
+                    "currency_code": "USD",
+                    "display": "$9.83"
+                },
+                "estimated_total_charge": {
+                    "amount": 960.45,
+                    "currency_code": "USD",
+                    "display": "$960.45"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24432368",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24432368/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24432368/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24432368/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24432368&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24432368&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 23445063,
+                "number_of_tickets": 1,
+                "seating": {
+                    "section": "H",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 90,
+                    "currency_code": "GBP",
+                    "display": "£90.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 137.39,
+                    "currency_code": "USD",
+                    "display": "$137.39"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 137.39,
+                    "currency_code": "USD",
+                    "display": "$137.39"
+                },
+                "estimated_booking_fee": {
+                    "amount": 20.61,
+                    "currency_code": "USD",
+                    "display": "$20.61"
+                },
+                "estimated_shipping": {
+                    "amount": 22.82,
+                    "currency_code": "USD",
+                    "display": "$22.82"
+                },
+                "estimated_vat": {
+                    "amount": 1.65,
+                    "currency_code": "USD",
+                    "display": "$1.65"
+                },
+                "estimated_total_charge": {
+                    "amount": 182.46,
+                    "currency_code": "USD",
+                    "display": "$182.46"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/23445063",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/23445063/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/23445063/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/23445063/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=23445063&eventId=735160&quantity=1",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=23445063&eventId=735160&quantity=1",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24374374,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 90.9091,
+                    "currency_code": "GBP",
+                    "display": "£90.91"
+                },
+                "estimated_ticket_price": {
+                    "amount": 138.78,
+                    "currency_code": "USD",
+                    "display": "$138.78"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 832.65,
+                    "currency_code": "USD",
+                    "display": "$832.65"
+                },
+                "estimated_booking_fee": {
+                    "amount": 124.9,
+                    "currency_code": "USD",
+                    "display": "$124.90"
+                },
+                "estimated_shipping": {
+                    "amount": 9.08,
+                    "currency_code": "USD",
+                    "display": "$9.08"
+                },
+                "estimated_vat": {
+                    "amount": 10,
+                    "currency_code": "USD",
+                    "display": "$10.00"
+                },
+                "estimated_total_charge": {
+                    "amount": 976.63,
+                    "currency_code": "USD",
+                    "display": "$976.63"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24374374",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24374374/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24374374/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24374374/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24374374&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24374374&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24567344,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": true,
+                "ticket_price": {
+                    "amount": 125,
+                    "currency_code": "EUR",
+                    "display": "€125.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 138.79,
+                    "currency_code": "USD",
+                    "display": "$138.79"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 277.59,
+                    "currency_code": "USD",
+                    "display": "$277.59"
+                },
+                "estimated_booking_fee": {
+                    "amount": 41.64,
+                    "currency_code": "USD",
+                    "display": "$41.64"
+                },
+                "estimated_shipping": {
+                    "amount": 5.5,
+                    "currency_code": "USD",
+                    "display": "$5.50"
+                },
+                "estimated_vat": {
+                    "amount": 3.33,
+                    "currency_code": "USD",
+                    "display": "$3.33"
+                },
+                "estimated_total_charge": {
+                    "amount": 328.05,
+                    "currency_code": "USD",
+                    "display": "$328.05"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24567344",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24567344/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24567344/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24567344/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24567344&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24567344&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24579402,
+                "number_of_tickets": 5,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 96.9213,
+                    "currency_code": "GBP",
+                    "display": "£96.92"
+                },
+                "estimated_ticket_price": {
+                    "amount": 147.95,
+                    "currency_code": "USD",
+                    "display": "$147.95"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 739.75,
+                    "currency_code": "USD",
+                    "display": "$739.75"
+                },
+                "estimated_booking_fee": {
+                    "amount": 110.96,
+                    "currency_code": "USD",
+                    "display": "$110.96"
+                },
+                "estimated_shipping": {
+                    "amount": 22.15,
+                    "currency_code": "USD",
+                    "display": "$22.15"
+                },
+                "estimated_vat": {
+                    "amount": 8.88,
+                    "currency_code": "USD",
+                    "display": "$8.88"
+                },
+                "estimated_total_charge": {
+                    "amount": 881.74,
+                    "currency_code": "USD",
+                    "display": "$881.74"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24579402",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24579402/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24579402/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24579402/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24579402&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24579402&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24579403,
+                "number_of_tickets": 5,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 96.9213,
+                    "currency_code": "GBP",
+                    "display": "£96.92"
+                },
+                "estimated_ticket_price": {
+                    "amount": 147.95,
+                    "currency_code": "USD",
+                    "display": "$147.95"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 739.75,
+                    "currency_code": "USD",
+                    "display": "$739.75"
+                },
+                "estimated_booking_fee": {
+                    "amount": 110.96,
+                    "currency_code": "USD",
+                    "display": "$110.96"
+                },
+                "estimated_shipping": {
+                    "amount": 22.15,
+                    "currency_code": "USD",
+                    "display": "$22.15"
+                },
+                "estimated_vat": {
+                    "amount": 8.88,
+                    "currency_code": "USD",
+                    "display": "$8.88"
+                },
+                "estimated_total_charge": {
+                    "amount": 881.74,
+                    "currency_code": "USD",
+                    "display": "$881.74"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24579403",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24579403/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24579403/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24579403/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24579403&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24579403&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24579404,
+                "number_of_tickets": 5,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 96.9213,
+                    "currency_code": "GBP",
+                    "display": "£96.92"
+                },
+                "estimated_ticket_price": {
+                    "amount": 147.95,
+                    "currency_code": "USD",
+                    "display": "$147.95"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 739.75,
+                    "currency_code": "USD",
+                    "display": "$739.75"
+                },
+                "estimated_booking_fee": {
+                    "amount": 110.96,
+                    "currency_code": "USD",
+                    "display": "$110.96"
+                },
+                "estimated_shipping": {
+                    "amount": 22.15,
+                    "currency_code": "USD",
+                    "display": "$22.15"
+                },
+                "estimated_vat": {
+                    "amount": 8.88,
+                    "currency_code": "USD",
+                    "display": "$8.88"
+                },
+                "estimated_total_charge": {
+                    "amount": 881.74,
+                    "currency_code": "USD",
+                    "display": "$881.74"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24579404",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24579404/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24579404/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24579404/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24579404&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24579404&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24579405,
+                "number_of_tickets": 5,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 96.9213,
+                    "currency_code": "GBP",
+                    "display": "£96.92"
+                },
+                "estimated_ticket_price": {
+                    "amount": 147.95,
+                    "currency_code": "USD",
+                    "display": "$147.95"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 739.75,
+                    "currency_code": "USD",
+                    "display": "$739.75"
+                },
+                "estimated_booking_fee": {
+                    "amount": 110.96,
+                    "currency_code": "USD",
+                    "display": "$110.96"
+                },
+                "estimated_shipping": {
+                    "amount": 22.15,
+                    "currency_code": "USD",
+                    "display": "$22.15"
+                },
+                "estimated_vat": {
+                    "amount": 8.88,
+                    "currency_code": "USD",
+                    "display": "$8.88"
+                },
+                "estimated_total_charge": {
+                    "amount": 881.74,
+                    "currency_code": "USD",
+                    "display": "$881.74"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24579405",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24579405/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24579405/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24579405/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24579405&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24579405&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24511009,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "J",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 100,
+                    "currency_code": "GBP",
+                    "display": "£100.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 152.65,
+                    "currency_code": "USD",
+                    "display": "$152.65"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 305.3,
+                    "currency_code": "USD",
+                    "display": "$305.30"
+                },
+                "estimated_booking_fee": {
+                    "amount": 45.8,
+                    "currency_code": "USD",
+                    "display": "$45.80"
+                },
+                "estimated_shipping": {
+                    "amount": 9.08,
+                    "currency_code": "USD",
+                    "display": "$9.08"
+                },
+                "estimated_vat": {
+                    "amount": 3.66,
+                    "currency_code": "USD",
+                    "display": "$3.66"
+                },
+                "estimated_total_charge": {
+                    "amount": 363.84,
+                    "currency_code": "USD",
+                    "display": "$363.84"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24511009",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24511009/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24511009/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24511009/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24511009&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24511009&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24792708,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": true,
+                "ticket_price": {
+                    "amount": 140,
+                    "currency_code": "EUR",
+                    "display": "€140.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 155.45,
+                    "currency_code": "USD",
+                    "display": "$155.45"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 310.9,
+                    "currency_code": "USD",
+                    "display": "$310.90"
+                },
+                "estimated_booking_fee": {
+                    "amount": 46.63,
+                    "currency_code": "USD",
+                    "display": "$46.63"
+                },
+                "estimated_shipping": {
+                    "amount": 5.5,
+                    "currency_code": "USD",
+                    "display": "$5.50"
+                },
+                "estimated_vat": {
+                    "amount": 3.73,
+                    "currency_code": "USD",
+                    "display": "$3.73"
+                },
+                "estimated_total_charge": {
+                    "amount": 366.76,
+                    "currency_code": "USD",
+                    "display": "$366.76"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24792708",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24792708/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24792708/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24792708/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24792708&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24792708&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22067531,
+                "number_of_tickets": 5,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 102.6226,
+                    "currency_code": "GBP",
+                    "display": "£102.62"
+                },
+                "estimated_ticket_price": {
+                    "amount": 156.65,
+                    "currency_code": "USD",
+                    "display": "$156.65"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 783.25,
+                    "currency_code": "USD",
+                    "display": "$783.25"
+                },
+                "estimated_booking_fee": {
+                    "amount": 117.48,
+                    "currency_code": "USD",
+                    "display": "$117.48"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 9.4,
+                    "currency_code": "USD",
+                    "display": "$9.40"
+                },
+                "estimated_total_charge": {
+                    "amount": 924.52,
+                    "currency_code": "USD",
+                    "display": "$924.52"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22067531",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22067531/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22067531/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22067531/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22067531&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22067531&eventId=735160&quantity=5",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22067532,
+                "number_of_tickets": 4,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 114.0251,
+                    "currency_code": "GBP",
+                    "display": "£114.03"
+                },
+                "estimated_ticket_price": {
+                    "amount": 174.07,
+                    "currency_code": "USD",
+                    "display": "$174.07"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 696.27,
+                    "currency_code": "USD",
+                    "display": "$696.27"
+                },
+                "estimated_booking_fee": {
+                    "amount": 104.44,
+                    "currency_code": "USD",
+                    "display": "$104.44"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 8.35,
+                    "currency_code": "USD",
+                    "display": "$8.35"
+                },
+                "estimated_total_charge": {
+                    "amount": 823.45,
+                    "currency_code": "USD",
+                    "display": "$823.45"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22067532",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22067532/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22067532/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22067532/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22067532&eventId=735160&quantity=4",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22067532&eventId=735160&quantity=4",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22067533,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 114.0251,
+                    "currency_code": "GBP",
+                    "display": "£114.03"
+                },
+                "estimated_ticket_price": {
+                    "amount": 174.07,
+                    "currency_code": "USD",
+                    "display": "$174.07"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 1044.41,
+                    "currency_code": "USD",
+                    "display": "$1,044.41"
+                },
+                "estimated_booking_fee": {
+                    "amount": 156.67,
+                    "currency_code": "USD",
+                    "display": "$156.67"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 12.53,
+                    "currency_code": "USD",
+                    "display": "$12.53"
+                },
+                "estimated_total_charge": {
+                    "amount": 1227.99,
+                    "currency_code": "USD",
+                    "display": "$1,227.99"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22067533",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22067533/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22067533/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22067533/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22067533&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22067533&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22070998,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 171.0376,
+                    "currency_code": "EUR",
+                    "display": "€171.04"
+                },
+                "estimated_ticket_price": {
+                    "amount": 189.91,
+                    "currency_code": "USD",
+                    "display": "$189.91"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 1139.48,
+                    "currency_code": "USD",
+                    "display": "$1,139.48"
+                },
+                "estimated_booking_fee": {
+                    "amount": 170.93,
+                    "currency_code": "USD",
+                    "display": "$170.93"
+                },
+                "estimated_shipping": {
+                    "amount": 22.15,
+                    "currency_code": "USD",
+                    "display": "$22.15"
+                },
+                "estimated_vat": {
+                    "amount": 13.68,
+                    "currency_code": "USD",
+                    "display": "$13.68"
+                },
+                "estimated_total_charge": {
+                    "amount": 1346.24,
+                    "currency_code": "USD",
+                    "display": "$1,346.24"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22070998",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22070998/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22070998/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22070998/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22070998&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22070998&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24599810,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "G",
+                    "row": "27",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 125,
+                    "currency_code": "GBP",
+                    "display": "£125.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 190.81,
+                    "currency_code": "USD",
+                    "display": "$190.81"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 1144.88,
+                    "currency_code": "USD",
+                    "display": "$1,144.88"
+                },
+                "estimated_booking_fee": {
+                    "amount": 171.73,
+                    "currency_code": "USD",
+                    "display": "$171.73"
+                },
+                "estimated_shipping": {
+                    "amount": 9.08,
+                    "currency_code": "USD",
+                    "display": "$9.08"
+                },
+                "estimated_vat": {
+                    "amount": 13.74,
+                    "currency_code": "USD",
+                    "display": "$13.74"
+                },
+                "estimated_total_charge": {
+                    "amount": 1339.44,
+                    "currency_code": "USD",
+                    "display": "$1,339.44"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24599810",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24599810/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24599810/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24599810/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24599810&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24599810&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24528735,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "A",
+                    "row": "28",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 125,
+                    "currency_code": "GBP",
+                    "display": "£125.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 190.81,
+                    "currency_code": "USD",
+                    "display": "$190.81"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 381.63,
+                    "currency_code": "USD",
+                    "display": "$381.63"
+                },
+                "estimated_booking_fee": {
+                    "amount": 57.24,
+                    "currency_code": "USD",
+                    "display": "$57.24"
+                },
+                "estimated_shipping": {
+                    "amount": 9.08,
+                    "currency_code": "USD",
+                    "display": "$9.08"
+                },
+                "estimated_vat": {
+                    "amount": 4.58,
+                    "currency_code": "USD",
+                    "display": "$4.58"
+                },
+                "estimated_total_charge": {
+                    "amount": 452.53,
+                    "currency_code": "USD",
+                    "display": "$452.53"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24528735",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24528735/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24528735/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24528735/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24528735&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24528735&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 24507641,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "A",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 142,
+                    "currency_code": "GBP",
+                    "display": "£142.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 216.76,
+                    "currency_code": "USD",
+                    "display": "$216.76"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 1300.59,
+                    "currency_code": "USD",
+                    "display": "$1,300.59"
+                },
+                "estimated_booking_fee": {
+                    "amount": 195.09,
+                    "currency_code": "USD",
+                    "display": "$195.09"
+                },
+                "estimated_shipping": {
+                    "amount": 9.08,
+                    "currency_code": "USD",
+                    "display": "$9.08"
+                },
+                "estimated_vat": {
+                    "amount": 15.6,
+                    "currency_code": "USD",
+                    "display": "$15.60"
+                },
+                "estimated_total_charge": {
+                    "amount": 1520.36,
+                    "currency_code": "USD",
+                    "display": "$1,520.36"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/24507641",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/24507641/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/24507641/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/24507641/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=24507641&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=24507641&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22052658,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 201,
+                    "currency_code": "EUR",
+                    "display": "€201.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 223.18,
+                    "currency_code": "USD",
+                    "display": "$223.18"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 1339.08,
+                    "currency_code": "USD",
+                    "display": "$1,339.08"
+                },
+                "estimated_booking_fee": {
+                    "amount": 200.86,
+                    "currency_code": "USD",
+                    "display": "$200.86"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 16.07,
+                    "currency_code": "USD",
+                    "display": "$16.07"
+                },
+                "estimated_total_charge": {
+                    "amount": 1570.39,
+                    "currency_code": "USD",
+                    "display": "$1,570.39"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22052658",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22052658/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22052658/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22052658/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22052658&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22052658&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22071004,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "Upper Tier",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 205.2452,
+                    "currency_code": "EUR",
+                    "display": "€205.25"
+                },
+                "estimated_ticket_price": {
+                    "amount": 227.9,
+                    "currency_code": "USD",
+                    "display": "$227.90"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 1367.39,
+                    "currency_code": "USD",
+                    "display": "$1,367.39"
+                },
+                "estimated_booking_fee": {
+                    "amount": 205.1,
+                    "currency_code": "USD",
+                    "display": "$205.10"
+                },
+                "estimated_shipping": {
+                    "amount": 22.15,
+                    "currency_code": "USD",
+                    "display": "$22.15"
+                },
+                "estimated_vat": {
+                    "amount": 16.41,
+                    "currency_code": "USD",
+                    "display": "$16.41"
+                },
+                "estimated_total_charge": {
+                    "amount": 1611.06,
+                    "currency_code": "USD",
+                    "display": "$1,611.06"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22071004",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22071004/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22071004/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22071004/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22071004&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22071004&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22600293,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "P",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": true,
+                "ticket_price": {
+                    "amount": 220,
+                    "currency_code": "EUR",
+                    "display": "€220.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 244.28,
+                    "currency_code": "USD",
+                    "display": "$244.28"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 488.55,
+                    "currency_code": "USD",
+                    "display": "$488.55"
+                },
+                "estimated_booking_fee": {
+                    "amount": 73.28,
+                    "currency_code": "USD",
+                    "display": "$73.28"
+                },
+                "estimated_shipping": {
+                    "amount": 5.5,
+                    "currency_code": "USD",
+                    "display": "$5.50"
+                },
+                "estimated_vat": {
+                    "amount": 5.86,
+                    "currency_code": "USD",
+                    "display": "$5.86"
+                },
+                "estimated_total_charge": {
+                    "amount": 573.19,
+                    "currency_code": "USD",
+                    "display": "$573.19"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22600293",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22600293/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22600293/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22600293/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22600293&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22600293&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "ETicket",
+                        "name": "E-Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22092327,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 250,
+                    "currency_code": "EUR",
+                    "display": "€250.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 277.59,
+                    "currency_code": "USD",
+                    "display": "$277.59"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 555.17,
+                    "currency_code": "USD",
+                    "display": "$555.17"
+                },
+                "estimated_booking_fee": {
+                    "amount": 83.28,
+                    "currency_code": "USD",
+                    "display": "$83.28"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 6.66,
+                    "currency_code": "USD",
+                    "display": "$6.66"
+                },
+                "estimated_total_charge": {
+                    "amount": 659.49,
+                    "currency_code": "USD",
+                    "display": "$659.49"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22092327",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22092327/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22092327/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22092327/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22092327&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22092327&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22097214,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 250,
+                    "currency_code": "EUR",
+                    "display": "€250.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 277.59,
+                    "currency_code": "USD",
+                    "display": "$277.59"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 555.17,
+                    "currency_code": "USD",
+                    "display": "$555.17"
+                },
+                "estimated_booking_fee": {
+                    "amount": 83.28,
+                    "currency_code": "USD",
+                    "display": "$83.28"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 6.66,
+                    "currency_code": "USD",
+                    "display": "$6.66"
+                },
+                "estimated_total_charge": {
+                    "amount": 659.49,
+                    "currency_code": "USD",
+                    "display": "$659.49"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22097214",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22097214/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22097214/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22097214/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22097214&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22097214&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22102828,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "G",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 250,
+                    "currency_code": "EUR",
+                    "display": "€250.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 277.59,
+                    "currency_code": "USD",
+                    "display": "$277.59"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 555.17,
+                    "currency_code": "USD",
+                    "display": "$555.17"
+                },
+                "estimated_booking_fee": {
+                    "amount": 83.28,
+                    "currency_code": "USD",
+                    "display": "$83.28"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 6.66,
+                    "currency_code": "USD",
+                    "display": "$6.66"
+                },
+                "estimated_total_charge": {
+                    "amount": 659.49,
+                    "currency_code": "USD",
+                    "display": "$659.49"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22102828",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22102828/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22102828/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22102828/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22102828&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22102828&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 23564623,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "E",
+                    "row": "26",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 300,
+                    "currency_code": "EUR",
+                    "display": "€300.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 333.1,
+                    "currency_code": "USD",
+                    "display": "$333.10"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 666.21,
+                    "currency_code": "USD",
+                    "display": "$666.21"
+                },
+                "estimated_booking_fee": {
+                    "amount": 99.93,
+                    "currency_code": "USD",
+                    "display": "$99.93"
+                },
+                "estimated_shipping": {
+                    "amount": 22.15,
+                    "currency_code": "USD",
+                    "display": "$22.15"
+                },
+                "estimated_vat": {
+                    "amount": 7.99,
+                    "currency_code": "USD",
+                    "display": "$7.99"
+                },
+                "estimated_total_charge": {
+                    "amount": 796.29,
+                    "currency_code": "USD",
+                    "display": "$796.29"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/23564623",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/23564623/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/23564623/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/23564623/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=23564623&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=23564623&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [
+                        {
+                            "id": 11,
+                            "note": "Includes VIP pass",
+                            "_links": {
+                                "self": {
+                                    "href": "https://api.viagogo.net/v2/listingnotes/11",
+                                    "title": null,
+                                    "templated": false
+                                }
+                            }
+                        }
+                    ],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22039222,
+                "number_of_tickets": 3,
+                "seating": {
+                    "section": "Tiered Seating",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 228.0502,
+                    "currency_code": "GBP",
+                    "display": "£228.05"
+                },
+                "estimated_ticket_price": {
+                    "amount": 348.12,
+                    "currency_code": "USD",
+                    "display": "$348.12"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 1044.36,
+                    "currency_code": "USD",
+                    "display": "$1,044.36"
+                },
+                "estimated_booking_fee": {
+                    "amount": 156.65,
+                    "currency_code": "USD",
+                    "display": "$156.65"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 12.53,
+                    "currency_code": "USD",
+                    "display": "$12.53"
+                },
+                "estimated_total_charge": {
+                    "amount": 1227.93,
+                    "currency_code": "USD",
+                    "display": "$1,227.93"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22039222",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22039222/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22039222/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22039222/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22039222&eventId=735160&quantity=3",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22039222&eventId=735160&quantity=3",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22039223,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "Tiered Seating",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 228.0502,
+                    "currency_code": "GBP",
+                    "display": "£228.05"
+                },
+                "estimated_ticket_price": {
+                    "amount": 348.12,
+                    "currency_code": "USD",
+                    "display": "$348.12"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 696.24,
+                    "currency_code": "USD",
+                    "display": "$696.24"
+                },
+                "estimated_booking_fee": {
+                    "amount": 104.44,
+                    "currency_code": "USD",
+                    "display": "$104.44"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 8.35,
+                    "currency_code": "USD",
+                    "display": "$8.35"
+                },
+                "estimated_total_charge": {
+                    "amount": 823.42,
+                    "currency_code": "USD",
+                    "display": "$823.42"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22039223",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22039223/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22039223/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22039223/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22039223&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22039223&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22049208,
+                "number_of_tickets": 6,
+                "seating": {
+                    "section": "Tiered Seating",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 228.0502,
+                    "currency_code": "GBP",
+                    "display": "£228.05"
+                },
+                "estimated_ticket_price": {
+                    "amount": 348.12,
+                    "currency_code": "USD",
+                    "display": "$348.12"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 2088.73,
+                    "currency_code": "USD",
+                    "display": "$2,088.73"
+                },
+                "estimated_booking_fee": {
+                    "amount": 313.3,
+                    "currency_code": "USD",
+                    "display": "$313.30"
+                },
+                "estimated_shipping": {
+                    "amount": 14.38,
+                    "currency_code": "USD",
+                    "display": "$14.38"
+                },
+                "estimated_vat": {
+                    "amount": 25.07,
+                    "currency_code": "USD",
+                    "display": "$25.07"
+                },
+                "estimated_total_charge": {
+                    "amount": 2441.47,
+                    "currency_code": "USD",
+                    "display": "$2,441.47"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22049208",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22049208/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22049208/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22049208/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22049208&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22049208&eventId=735160&quantity=6",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22039215,
+                "number_of_tickets": 10,
+                "seating": {
+                    "section": "General Admission",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 319,
+                    "currency_code": "EUR",
+                    "display": "€319.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 354.2,
+                    "currency_code": "USD",
+                    "display": "$354.20"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 3542.01,
+                    "currency_code": "USD",
+                    "display": "$3,542.01"
+                },
+                "estimated_booking_fee": {
+                    "amount": 531.3,
+                    "currency_code": "USD",
+                    "display": "$531.30"
+                },
+                "estimated_shipping": {
+                    "amount": 27.7,
+                    "currency_code": "USD",
+                    "display": "$27.70"
+                },
+                "estimated_vat": {
+                    "amount": 42.5,
+                    "currency_code": "USD",
+                    "display": "$42.50"
+                },
+                "estimated_total_charge": {
+                    "amount": 4143.52,
+                    "currency_code": "USD",
+                    "display": "$4,143.52"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22039215",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22039215/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22039215/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22039215/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22039215&eventId=735160&quantity=10",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22039215&eventId=735160&quantity=10",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 22039220,
+                "number_of_tickets": 2,
+                "seating": {
+                    "section": "Upper Tier",
+                    "row": "",
+                    "seat_from": null,
+                    "seat_to": null
+                },
+                "pickup_available": false,
+                "download_available": false,
+                "ticket_price": {
+                    "amount": 339,
+                    "currency_code": "EUR",
+                    "display": "€339.00"
+                },
+                "estimated_ticket_price": {
+                    "amount": 376.41,
+                    "currency_code": "USD",
+                    "display": "$376.41"
+                },
+                "estimated_total_ticket_price": {
+                    "amount": 752.82,
+                    "currency_code": "USD",
+                    "display": "$752.82"
+                },
+                "estimated_booking_fee": {
+                    "amount": 112.92,
+                    "currency_code": "USD",
+                    "display": "$112.92"
+                },
+                "estimated_shipping": {
+                    "amount": 27.7,
+                    "currency_code": "USD",
+                    "display": "$27.70"
+                },
+                "estimated_vat": {
+                    "amount": 9.04,
+                    "currency_code": "USD",
+                    "display": "$9.04"
+                },
+                "estimated_total_charge": {
+                    "amount": 902.48,
+                    "currency_code": "USD",
+                    "display": "$902.48"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/listings/22039220",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:event": {
+                        "href": "https://api.viagogo.net/v2/events/735160",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:workitems": {
+                        "href": "https://api.viagogo.net/v2/listings/22039220/workitems",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:purchasepreview": {
+                        "href": "https://api.viagogo.net/v2/listings/22039220/purchasepreview",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:deliverymethods": {
+                        "href": "https://api.viagogo.net/v2/listings/22039220/deliverymethods",
+                        "title": null,
+                        "templated": false
+                    },
+                    "listing:webpage": {
+                        "href": "http://www.viagogo.com/ww/secure/buy/selectquantity?listingId=22039220&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    },
+                    "listing:localwebpage": {
+                        "href": "http://www.viagogo.ie/secure/buy/selectquantity?listingId=22039220&eventId=735160&quantity=2",
+                        "title": "Buy",
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "listing_notes": [],
+                    "ticket_type": {
+                        "type": "PaperTicket",
+                        "name": "Paper Tickets",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
+                                "title": null,
+                                "templated": false
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

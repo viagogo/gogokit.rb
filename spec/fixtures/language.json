@@ -1,0 +1,11 @@
+{
+    "code": "it-it",
+    "name": "Italiano",
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/languages/it-it",
+            "title": null,
+            "templated": false
+        }
+    }
+}

@@ -1,0 +1,656 @@
+{
+    "total_items": 464,
+    "page": 1,
+    "page_size": 30,
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/metroareas?page=1&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "next": {
+            "href": "https://api.viagogo.net/v2/metroareas?page=2&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "last": {
+            "href": "https://api.viagogo.net/v2/metroareas?page=16&page_size=30",
+            "title": null,
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "items": [
+            {
+                "id": 812,
+                "name": "Aachen",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/812",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=812",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=812",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 835,
+                "name": "Aarhus",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/835",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=835",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=835",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 243,
+                "name": "Aberdeen",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/243",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=243",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=243",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 780,
+                "name": "Afghanistan",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/780",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=780",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=780",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 68,
+                "name": "Alabama",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/68",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=68",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=68",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 69,
+                "name": "Alaska",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/69",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=69",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=69",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 891,
+                "name": "Albany",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/891",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=891",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=891",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 898,
+                "name": "Albuquerque",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/898",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=898",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=898",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 899,
+                "name": "Allentown",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/899",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=899",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=899",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 556,
+                "name": "Amnéville",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/556",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=556",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=556",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 460,
+                "name": "Amsterdam",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/460",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=460",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=460",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 818,
+                "name": "Andorra",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/818",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=818",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=818",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 960,
+                "name": "Antofagasta",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/960",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=960",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=960",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 557,
+                "name": "Antwerp",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/557",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=557",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=557",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 226,
+                "name": "Argentina",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/226",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=226",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=226",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 667,
+                "name": "Arizona",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/667",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=667",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=667",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 70,
+                "name": "Arkansas",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/70",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=70",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=70",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 418,
+                "name": "Athens",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/418",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=418",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=418",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 71,
+                "name": "Atlanta",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/71",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=71",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=71",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 779,
+                "name": "Augsburg",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/779",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=779",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=779",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 916,
+                "name": "Austin",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/916",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=916",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=916",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 28,
+                "name": "Australia",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/28",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=28",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=28",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 198,
+                "name": "Austria",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/198",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=198",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=198",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 796,
+                "name": "Baden-Baden",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/796",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=796",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=796",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 257,
+                "name": "Bahrain",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/257",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=257",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=257",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 536,
+                "name": "Balearic Islands",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/536",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=536",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=536",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 72,
+                "name": "Baltimore",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/72",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=72",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=72",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 863,
+                "name": "Bangalore",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/863",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=863",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=863",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 225,
+                "name": "Bangladesh",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/225",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=225",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=225",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            },
+            {
+                "id": 761,
+                "name": "Barbados",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/metroareas/761",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:venues": {
+                        "href": "https://api.viagogo.net/v2/venues?metro_area_id=761",
+                        "title": null,
+                        "templated": false
+                    },
+                    "metroarea:events": {
+                        "href": "https://api.viagogo.net/v2/categories/0/events?metro_area_id=761",
+                        "title": null,
+                        "templated": false
+                    }
+                }
+            }
+        ]
+    }
+}

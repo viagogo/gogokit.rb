@@ -1,0 +1,12 @@
+{
+  "code": "CRC",
+  "name": "Costa Rican Colón",
+  "symbol": "₡",
+  "_links": {
+    "self": {
+      "href": "https://api.viagogo.net/v2/currencies/CRC",
+      "title": null,
+      "templated": false
+    }
+  }
+}

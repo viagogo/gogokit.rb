@@ -3,9 +3,17 @@ require 'addressable/template'
 require 'gogokit/configuration'
 require 'gogokit/connection'
 require 'gogokit/error'
+require 'gogokit/client/category'
+require 'gogokit/client/country'
+require 'gogokit/client/currency'
+require 'gogokit/client/event'
+require 'gogokit/client/language'
+require 'gogokit/client/listing'
+require 'gogokit/client/metro_area'
 require 'gogokit/client/oauth'
 require 'gogokit/client/root'
 require 'gogokit/client/search'
+require 'gogokit/client/venue'
 require 'gogokit/version'
 
 module GogoKit
@@ -15,9 +23,17 @@ module GogoKit
   class Client
     include GogoKit::Configuration
     include GogoKit::Connection
+    include GogoKit::Client::Category
+    include GogoKit::Client::Country
+    include GogoKit::Client::Currency
+    include GogoKit::Client::Event
+    include GogoKit::Client::Language
+    include GogoKit::Client::Listing
+    include GogoKit::Client::MetroArea
     include GogoKit::Client::OAuth
     include GogoKit::Client::Root
     include GogoKit::Client::Search
+    include GogoKit::Client::Venue
 
     attr_accessor :client_id,
                   :client_secret,

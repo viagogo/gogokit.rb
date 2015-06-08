@@ -1,0 +1,11 @@
+{
+  "code": "BB",
+  "name": "Barbados",
+  "_links": {
+    "self": {
+      "href": "https://api.viagogo.net/v2/countries/BB",
+      "title": null,
+      "templated": false
+    }
+  }
+}
