@@ -6,7 +6,9 @@ require 'gogokit/error'
 require 'gogokit/client/category'
 require 'gogokit/client/country'
 require 'gogokit/client/currency'
+require 'gogokit/client/event'
 require 'gogokit/client/language'
+require 'gogokit/client/listing'
 require 'gogokit/client/metro_area'
 require 'gogokit/client/oauth'
 require 'gogokit/client/root'
@@ -24,7 +26,9 @@ module GogoKit
     include GogoKit::Client::Category
     include GogoKit::Client::Country
     include GogoKit::Client::Currency
+    include GogoKit::Client::Event
     include GogoKit::Client::Language
+    include GogoKit::Client::Listing
     include GogoKit::Client::MetroArea
     include GogoKit::Client::OAuth
     include GogoKit::Client::Root

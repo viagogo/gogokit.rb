@@ -1,0 +1,1973 @@
+{
+    "total_items": 12428,
+    "page": 1,
+    "page_size": 30,
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/categories/3/events?tagTypeId=1&page=1&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "next": {
+            "href": "https://api.viagogo.net/v2/categories/3/events?tagTypeId=1&page=2&page_size=30",
+            "title": null,
+            "templated": false
+        },
+        "last": {
+            "href": "https://api.viagogo.net/v2/categories/3/events?tagTypeId=1&page=415&page_size=30",
+            "title": null,
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "items": [
+            {
+                "id": 961589,
+                "name": "Michelle Branch",
+                "start_date": "2015-06-08T17:30:00+09:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/961589",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-961589",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.jp/E-961589",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 20621,
+                        "name": "Billboard Live Tokyo",
+                        "city": "Tokyo",
+                        "latitude": 35.6749,
+                        "longitude": 139.7359,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/20621",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "JP",
+                                "name": "Japan",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/JP",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 967653,
+                "name": "Robert Glasper Experiment & Tomomi Nishimoto",
+                "start_date": "2015-06-08T18:00:00+09:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/967653",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-967653",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.jp/E-967653",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 20812,
+                        "name": "Tokyo Metropolitan Theatre",
+                        "city": "Tokyo",
+                        "latitude": 35.732,
+                        "longitude": 139.7101,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/20812",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "JP",
+                                "name": "Japan",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/JP",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 875254,
+                "name": "Boz Scaggs",
+                "start_date": "2015-06-08T18:30:00+09:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/875254",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-875254",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.jp/E-875254",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 21171,
+                        "name": "Sapporo Geibun (Nitori Culture Hall)",
+                        "city": "Sapporo",
+                        "latitude": 43.0609,
+                        "longitude": 141.3415,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/21171",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "JP",
+                                "name": "Japan",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/JP",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 968069,
+                "name": "Yngwie Malmsteen",
+                "start_date": "2015-06-08T19:30:00+10:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": "Customers have to be over 18 years of age to attend this event.",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/968069",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-968069",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.com/au/E-968069",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 15269,
+                        "name": "Wrest Point Entertainment Centre",
+                        "city": "Hobart",
+                        "latitude": -42.9033,
+                        "longitude": 147.3363,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/15269",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "AU",
+                                "name": "Australia",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/AU",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 941896,
+                "name": "This Will Destroy You",
+                "start_date": "2015-06-08T20:00:00+09:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/941896",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-941896",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.com/au/E-941896",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 18922,
+                        "name": "Jive",
+                        "city": "Adelaide",
+                        "latitude": -34.9234,
+                        "longitude": 138.5924,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/18922",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "AU",
+                                "name": "Australia",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/AU",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 950511,
+                "name": "TV On The Radio - Vivid Live 2015",
+                "start_date": "2015-06-08T21:00:00+10:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/950511",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-950511",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.com/au/E-950511",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 19864,
+                        "name": "Sydney Opera House - Playhouse",
+                        "city": "Sydney",
+                        "latitude": null,
+                        "longitude": null,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/19864",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "AU",
+                                "name": "Australia",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/AU",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 961591,
+                "name": "Michelle Branch",
+                "start_date": "2015-06-08T20:45:00+09:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/961591",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-961591",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.jp/E-961591",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 20621,
+                        "name": "Billboard Live Tokyo",
+                        "city": "Tokyo",
+                        "latitude": 35.6749,
+                        "longitude": 139.7359,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/20621",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "JP",
+                                "name": "Japan",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/JP",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 724795,
+                "name": "One Republic",
+                "start_date": "2015-06-08T18:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/724795",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-724795",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.at/E-724795",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 9353,
+                        "name": "Burg Clam",
+                        "city": "Klam",
+                        "latitude": 48.239,
+                        "longitude": 14.7874,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/9353",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "AT",
+                                "name": "Austria",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/AT",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 930456,
+                "name": "Manu Chao",
+                "start_date": "2015-06-08T18:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 79.94,
+                    "currency_code": "USD",
+                    "display": "$79.94"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/930456",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/930456/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-930456",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.de/E-930456",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 1299,
+                        "name": "Theater am Tanzbrunnen",
+                        "city": "Köln",
+                        "latitude": 50.9455,
+                        "longitude": 6.9701,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/1299",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "DE",
+                                "name": "Germany",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/DE",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 908594,
+                "name": "Paul McCartney",
+                "start_date": "2015-06-08T18:30:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 121.02,
+                    "currency_code": "USD",
+                    "display": "$121.02"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/908594",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/908594/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-908594",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.nl/E-908594",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 15873,
+                        "name": "Ziggo Dome",
+                        "city": "Amsterdam",
+                        "latitude": 52.3134,
+                        "longitude": 4.9369,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/15873",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "NL",
+                                "name": "Netherlands",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/NL",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 819168,
+                "name": "Tori Amos",
+                "start_date": "2015-06-08T20:00:00+03:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/819168",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-819168",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.com/fi/E-819168",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 5820,
+                        "name": "Finlandia-Talo",
+                        "city": "Helsinki",
+                        "latitude": 60.1733,
+                        "longitude": 24.9341,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/5820",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "FI",
+                                "name": "Finland",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/FI",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 726906,
+                "name": "Kiss",
+                "start_date": "2015-06-08T19:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 88.71,
+                    "currency_code": "USD",
+                    "display": "$88.71"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/726906",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/726906/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-726906",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.com/cz/E-726906",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 6408,
+                        "name": "O2 Arena",
+                        "city": "Prague",
+                        "latitude": 50.1046,
+                        "longitude": 14.4936,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/6408",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "CZ",
+                                "name": "Czech Republic",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/CZ",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 908672,
+                "name": "Van Morrison",
+                "start_date": "2015-06-08T19:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/908672",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-908672",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.at/E-908672",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 1038,
+                        "name": "Wiener Stadthalle",
+                        "city": "Wien",
+                        "latitude": 48.2021,
+                        "longitude": 16.3314,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/1038",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "AT",
+                                "name": "Austria",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/AT",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 825352,
+                "name": "A Day To Remember",
+                "start_date": "2015-06-08T19:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/825352",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-825352",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.de/E-825352",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 5880,
+                        "name": "Skaters Palace",
+                        "city": "MÜNSTER",
+                        "latitude": 51.9384,
+                        "longitude": 7.6292,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/5880",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "DE",
+                                "name": "Germany",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/DE",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 725910,
+                "name": "Ariana Grande & Rixton",
+                "start_date": "2015-06-08T18:30:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 87.72,
+                    "currency_code": "USD",
+                    "display": "$87.72"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/725910",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/725910/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-725910",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-725910",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 18244,
+                        "name": "Hydro",
+                        "city": "Glasgow",
+                        "latitude": 55.8609,
+                        "longitude": -4.2881,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/18244",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 698239,
+                "name": "Mark Knopfler",
+                "start_date": "2015-06-08T19:30:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 165.44,
+                    "currency_code": "USD",
+                    "display": "$165.44"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/698239",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/698239/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-698239",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.com/no/E-698239",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 17963,
+                        "name": "DNB Arena",
+                        "city": "Stavanger",
+                        "latitude": 58.9547,
+                        "longitude": 5.6986,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/17963",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "NO",
+                                "name": "Norway",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/NO",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 723009,
+                "name": "Take That",
+                "start_date": "2015-06-08T18:30:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 68.61,
+                    "currency_code": "USD",
+                    "display": "$68.61"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": "Standing Areas: Under 16s will not be permitted on the standing areas at all.\n\nΑll children under 15 must be accompanied by an adult.",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/723009",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/723009/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-723009",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-723009",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 1364,
+                        "name": "The O2 arena",
+                        "city": "London",
+                        "latitude": 51.5025,
+                        "longitude": 0.0024,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/1364",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 805726,
+                "name": "Slash",
+                "start_date": "2015-06-08T19:30:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/805726",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-805726",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.de/E-805726",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 1528,
+                        "name": "Zitadelle Spandau",
+                        "city": "Berlin",
+                        "latitude": 52.5385,
+                        "longitude": 13.2145,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/1528",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "DE",
+                                "name": "Germany",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/DE",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 883382,
+                "name": "Jessie J ",
+                "start_date": "2015-06-08T19:30:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 108.97,
+                    "currency_code": "USD",
+                    "display": "$108.97"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/883382",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/883382/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-883382",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.nl/E-883382",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 1330,
+                        "name": "Paradiso",
+                        "city": "Amsterdam",
+                        "latitude": 52.3623,
+                        "longitude": 4.8842,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/1330",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "NL",
+                                "name": "Netherlands",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/NL",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 723013,
+                "name": "Fleetwood Mac",
+                "start_date": "2015-06-08T19:00:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 152.63,
+                    "currency_code": "USD",
+                    "display": "$152.63"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/723013",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/723013/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-723013",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-723013",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 853,
+                        "name": "Genting Arena (LG Arena)",
+                        "city": "Birmingham",
+                        "latitude": 52.4533,
+                        "longitude": -1.7172,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/853",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 973957,
+                "name": "Amanda Palmer",
+                "start_date": "2015-06-08T19:00:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 37.38,
+                    "currency_code": "USD",
+                    "display": "$37.38"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": "Everyone under 16 must be accompanied by an adult.",
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/973957",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/973957/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-973957",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-973957",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 455,
+                        "name": "Union Chapel",
+                        "city": "London",
+                        "latitude": 51.5443,
+                        "longitude": -0.1027,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/455",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 736920,
+                "name": "Atomic Kitten",
+                "start_date": "2015-06-08T19:00:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/736920",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-736920",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-736920",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 780,
+                        "name": "O2 Academy Newcastle",
+                        "city": "Newcastle",
+                        "latitude": 54.9704,
+                        "longitude": -1.6184,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/780",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 716906,
+                "name": "Tony Bennett & Lady Gaga",
+                "start_date": "2015-06-08T19:00:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 106.86,
+                    "currency_code": "USD",
+                    "display": "$106.86"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/716906",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/716906/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-716906",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-716906",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 438,
+                        "name": "Royal Albert Hall",
+                        "city": "London",
+                        "latitude": 51.5012,
+                        "longitude": -0.1775,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/438",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 840043,
+                "name": "Patti Smith",
+                "start_date": "2015-06-08T19:00:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 34.35,
+                    "currency_code": "USD",
+                    "display": "$34.35"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/840043",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/840043/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-840043",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-840043",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 844,
+                        "name": "O2 Apollo Manchester ",
+                        "city": "Manchester",
+                        "latitude": 53.4694,
+                        "longitude": -2.222,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/844",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 977138,
+                "name": "Asaf Avidan",
+                "start_date": "2015-06-08T20:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/977138",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-977138",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.de/E-977138",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 1259,
+                        "name": "Backstage Werk",
+                        "city": "München",
+                        "latitude": 48.146,
+                        "longitude": 11.52,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/1259",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "DE",
+                                "name": "Germany",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/DE",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 878038,
+                "name": "Gavin James",
+                "start_date": "2015-06-08T20:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 16.38,
+                    "currency_code": "USD",
+                    "display": "$16.38"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/878038",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/878038/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-878038",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.nl/E-878038",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 6714,
+                        "name": "De Oosterpoort",
+                        "city": "Groningen",
+                        "latitude": 53.2148,
+                        "longitude": 6.5763,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/6714",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "NL",
+                                "name": "Netherlands",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/NL",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 994112,
+                "name": "Code Orange",
+                "start_date": "2015-06-08T20:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/994112",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-994112",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.de/E-994112",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 6997,
+                        "name": "Magnet Club",
+                        "city": "Berlin",
+                        "latitude": 52.5008,
+                        "longitude": 13.4449,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/6997",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "DE",
+                                "name": "Germany",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/DE",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 733033,
+                "name": "Jackson Browne",
+                "start_date": "2015-06-08T20:00:00+02:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/733033",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-733033",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.de/E-733033",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 1242,
+                        "name": "Admiralspalast - Theater",
+                        "city": "Berlin",
+                        "latitude": 52.5209,
+                        "longitude": 13.3884,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/1242",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "DE",
+                                "name": "Germany",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/DE",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 673027,
+                "name": "John Barrowman",
+                "start_date": "2015-06-08T19:00:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": null,
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/673027",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-673027",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-673027",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 439,
+                        "name": "The Sage Gateshead",
+                        "city": "Gateshead",
+                        "latitude": 54.9677,
+                        "longitude": -1.6019,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/439",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": 826015,
+                "name": "Death Cab for Cutie",
+                "start_date": "2015-06-08T19:00:00+01:00",
+                "end_date": null,
+                "date_confirmed": true,
+                "min_ticket_price": {
+                    "amount": 26.71,
+                    "currency_code": "USD",
+                    "display": "$26.71"
+                },
+                "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+                "restrictions_html": null,
+                "_links": {
+                    "self": {
+                        "href": "https://api.viagogo.net/v2/events/826015",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:listings": {
+                        "href": "https://api.viagogo.net/v2/events/826015/listings?category_id=3",
+                        "title": "View Tickets",
+                        "templated": false
+                    },
+                    "event:category": {
+                        "href": "https://api.viagogo.net/v2/categories/3",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:webpage": {
+                        "href": "http://www.viagogo.com/ww/E-826015",
+                        "title": null,
+                        "templated": false
+                    },
+                    "event:localwebpage": {
+                        "href": "http://www.viagogo.co.uk/E-826015",
+                        "title": null,
+                        "templated": false
+                    }
+                },
+                "_embedded": {
+                    "venue": {
+                        "id": 400,
+                        "name": "O2 Shepherds Bush Empire (Shepherds Bush Empire)",
+                        "city": "London",
+                        "latitude": 51.5035,
+                        "longitude": -0.2244,
+                        "_links": {
+                            "self": {
+                                "href": "https://api.viagogo.net/v2/venues/400",
+                                "title": null,
+                                "templated": false
+                            }
+                        },
+                        "_embedded": {
+                            "country": {
+                                "code": "GB",
+                                "name": "United Kingdom",
+                                "_links": {
+                                    "self": {
+                                        "href": "https://api.viagogo.net/v2/countries/GB",
+                                        "title": null,
+                                        "templated": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

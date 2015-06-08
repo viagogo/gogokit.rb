@@ -1,0 +1,70 @@
+{
+    "id": 883382,
+    "name": "Jessie J ",
+    "start_date": "2015-06-08T19:30:00+02:00",
+    "end_date": null,
+    "date_confirmed": true,
+    "min_ticket_price": {
+        "amount": 108.97,
+        "currency_code": "USD",
+        "display": "$108.97"
+    },
+    "notes_html": "All sales are final.\nAge restrictions may apply, please check with the venue for more details.\nEvent dates and times are subject to change, it is up to you to check local listings for updates. \nAfter your purchase, you will receive a confirmation email with your ticket delivery details and timing.\nPrices are set by sellers and may be lower or higher than face value.",
+    "restrictions_html": null,
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/events/883382",
+            "title": null,
+            "templated": false
+        },
+        "event:listings": {
+            "href": "https://api.viagogo.net/v2/events/883382/listings?category_id=20855",
+            "title": "View Tickets",
+            "templated": false
+        },
+        "event:category": {
+            "href": "https://api.viagogo.net/v2/categories/20855",
+            "title": null,
+            "templated": false
+        },
+        "event:webpage": {
+            "href": "http://www.viagogo.com/ww/E-883382",
+            "title": null,
+            "templated": false
+        },
+        "event:localwebpage": {
+            "href": "http://www.viagogo.nl/E-883382",
+            "title": null,
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "venue": {
+            "id": 1330,
+            "name": "Paradiso",
+            "city": "Amsterdam",
+            "latitude": 52.3623,
+            "longitude": 4.8842,
+            "_links": {
+                "self": {
+                    "href": "https://api.viagogo.net/v2/venues/1330",
+                    "title": null,
+                    "templated": false
+                }
+            },
+            "_embedded": {
+                "country": {
+                    "code": "NL",
+                    "name": "Netherlands",
+                    "_links": {
+                        "self": {
+                            "href": "https://api.viagogo.net/v2/countries/NL",
+                            "title": null,
+                            "templated": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
