@@ -1,0 +1,31 @@
+{
+    "id": 20435,
+    "name": "The Irish Village - Dubai",
+    "address_1": "Century Village",
+    "address_2": "Aviation Club, Garhoud",
+    "state_province": "",
+    "postal_code": "04 282 4750",
+    "city": "Dubai",
+    "latitude": 25.2434,
+    "longitude": 55.3417,
+    "_links": {
+        "self": {
+            "href": "https://api.viagogo.net/v2/venues/20435",
+            "title": null,
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "country": {
+            "code": "AE",
+            "name": "United Arab Emirates",
+            "_links": {
+                "self": {
+                    "href": "https://api.viagogo.net/v2/countries/AE",
+                    "title": null,
+                    "templated": false
+                }
+            }
+        }
+    }
+}

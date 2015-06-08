@@ -16,4 +16,14 @@ module GogoKit
     property :id
     property :name
   end
+
+  module MetroAreasRepresenter
+    include Representable::JSON
+    include GogoKit::PagedResourceRepresenter
+
+    collection :items,
+               class: MetroArea,
+               extend: MetroAreaRepresenter,
+               embedded: true
+  end
 end
