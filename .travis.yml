@@ -1,25 +1,27 @@
-cache: bundler
-
 language: ruby
-
-rvm:
-  - 1.9.3
-  - 2.0.0
-  - 2.1
-  - 2.2
-  - jruby-19mode
-  - jruby-head
-  - rbx-2
-  - ruby-head
-
 sudo: false
-
-env:
-  - JRUBY_OPTS="-Xcli.debug=true --debug"
-
+cache: bundler
+rvm:
+- 1.9.2
+- 1.9.3
+- 2.0.0
+- 2.1.0
+- 2.2.0
+- jruby
+- rbx
+- ruby-head
 matrix:
   allow_failures:
-    - rvm: jruby-head
-    - rvm: rbx-2
-    - rvm: ruby-head
+  - rvm: jruby
+  - rvm: rbx
+  - rvm: ruby-head
   fast_finish: true
+deploy:
+  provider: rubygems
+  api_key:
+    secure: H++5oKY8Re72ov+zoyKnRwLE9Z96zGebcShePEUxG1aftlUAhGp8my1tMmGoI4NSVYdG04rWGkfd7zJ7b14zWyYxLnSmwTYbvy6Hr/mmkrZiYhT5RPgsIHxyFCFgXjRsOIoKkakyfwQPe2Su6QGX42dcyK0bGaHJW8y7sa4SwU8=
+  gem: gogokit
+  on:
+    repo: viagogo/gogokit.rb
+    branch: master
+    tags: true
