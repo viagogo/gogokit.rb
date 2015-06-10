@@ -9,6 +9,8 @@ rvm:
 - jruby
 - rbx
 - ruby-head
+env:
+  - JRUBY_OPTS="-Xcli.debug=true --debug"
 matrix:
   allow_failures:
   - rvm: jruby
