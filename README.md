@@ -1,12 +1,13 @@
 # The GogoKit Ruby Gem
 
-[![Gem Version](https://badge.fury.io/rb/gogokit.svg)][badgefury]
+[![Gem Version](https://badge.fury.io/rb/gogokit.svg)][gem]
+[![Downloads](https://img.shields.io/gem/dt/gogokit.svg)][gem]
 [![Build Status](https://travis-ci.org/viagogo/gogokit.rb.svg?branch=master)][travis]
 [![Dependency Status](https://gemnasium.com/viagogo/gogokit.rb.svg)][gemnasium]
 [![Code Climate](https://codeclimate.com/github/viagogo/gogokit.rb/badges/gpa.svg)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/viagogo/gogokit.rb/badge.svg)][coverage]
 
-[badgefury]: http://badge.fury.io/rb/gogokit
+[gem]: https://rubygems.org/gems/gogokit
 [travis]: https://travis-ci.org/viagogo/gogokit.rb
 [gemnasium]: https://gemnasium.com/viagogo/gogokit.rb
 [codeclimate]: https://codeclimate.com/github/viagogo/gogokit.rb
