@@ -1,0 +1,163 @@
+{
+    "id": 5236138,
+    "created_at": "2015-06-18T12:31:02+01:00",
+    "number_of_tickets": 2,
+    "display_number_of_tickets": null,
+    "seating": {
+        "section": "101",
+        "row": "H",
+        "seat_from": "AA",
+        "seat_to": "XY"
+    },
+    "face_value": {
+        "amount": 1,
+        "currency_code": "USD",
+        "display": "$1.00"
+    },
+    "ticket_price": {
+        "amount": 8,
+        "currency_code": "USD",
+        "display": "$8.00"
+    },
+    "ticket_proceeds": {
+        "amount": 7.04,
+        "currency_code": "USD",
+        "display": "$7.04"
+    },
+    "_links": {
+        "self": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:constraints": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138/constraints",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:updatepreview": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138/updatepreview",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:updatetickettype": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:updateticketprice": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:updatesplittype": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:updatenumberoftickets": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:updateseating": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:updateticketlocation": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:updatenotes": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:unpublish": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:delete": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": "Delete Listing",
+            "templated": false
+        },
+        "sellerlisting:updatefacevalue": {
+            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138",
+            "title": null,
+            "templated": false
+        },
+        "sellerlisting:webpage": {
+            "href": "http://www.viagogo.com/ww/secure/buy/SelectQuantity?ListingID=5236138&EventID=735139&quantity=2",
+            "title": "Buy",
+            "templated": false
+        },
+        "sellerlisting:ticketlocation": {
+            "href": "https://qa.api.viagogo.net/v2/addresses/34115",
+            "title": "Ticket Location Address",
+            "templated": false
+        }
+    },
+    "_embedded": {
+        "event": {
+            "id": 735139,
+            "name": "One Direction",
+            "start_date": "2015-09-24T18:30:00+01:00",
+            "date_confirmed": true,
+            "_links": {
+                "self": {
+                    "href": "https://qa.api.viagogo.net/v2/events/735139",
+                    "title": null,
+                    "templated": false
+                }
+            }
+        },
+        "venue": {
+            "id": 1364,
+            "name": "The O2 arena",
+            "city": "London",
+            "latitude": 51.5025,
+            "longitude": 0.0024,
+            "_links": {
+                "self": {
+                    "href": "https://qa.api.viagogo.net/v2/venues/1364",
+                    "title": null,
+                    "templated": false
+                }
+            },
+            "_embedded": {
+                "country": {
+                    "code": "GB",
+                    "name": "United Kingdom",
+                    "_links": {
+                        "self": {
+                            "href": "https://qa.api.viagogo.net/v2/countries/GB",
+                            "title": null,
+                            "templated": false
+                        }
+                    }
+                }
+            }
+        },
+        "ticket_type": {
+            "type": "PaperTicket",
+            "name": "Paper Tickets",
+            "_links": {
+                "self": {
+                    "href": "https://qa.api.viagogo.net/v2/tickettypes/PaperTicket",
+                    "title": null,
+                    "templated": false
+                }
+            }
+        },
+        "split_type": {
+            "type": "Any",
+            "name": "Any",
+            "description": "Allow the tickets to be split up in any way"
+        },
+        "listing_notes": []
+    }
+}
