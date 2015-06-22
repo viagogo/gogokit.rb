@@ -50,7 +50,7 @@ client = GogoKit::Client.new do |config|
 end
 
 # Get an access token. See http://developer.viagogo.net/#getting-access-tokens
-token = client.get_client_token
+token = client.get_client_access_token
 client.access_token = token.access_token
 
 # Get a list of events, categories, venues and metro areas that match the given
