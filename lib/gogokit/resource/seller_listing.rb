@@ -28,7 +28,7 @@ module GogoKit
                   :listing_notes
   end
 
-  module ListingRepresenter
+  module SellerListingRepresenter
     include Representable::JSON
     include GogoKit::ResourceRepresenter
 
@@ -76,6 +76,16 @@ module GogoKit
                extend: GogoKit::ListingNoteRepresenter,
                class: GogoKit::ListingNote,
                skip_parse: ->(fragment, _) { fragment.nil? },
+               embedded: true
+  end
+
+  module SellerListingsRepresenter
+    include Representable::JSON
+    include GogoKit::PagedResourceRepresenter
+
+    collection :items,
+               class: SellerListing,
+               extend: SellerListingRepresenter,
                embedded: true
   end
 end

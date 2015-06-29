@@ -13,6 +13,7 @@ require 'gogokit/client/metro_area'
 require 'gogokit/client/oauth'
 require 'gogokit/client/root'
 require 'gogokit/client/search'
+require 'gogokit/client/seller_listing'
 require 'gogokit/client/venue'
 require 'gogokit/version'
 
@@ -33,6 +34,7 @@ module GogoKit
     include GogoKit::Client::OAuth
     include GogoKit::Client::Root
     include GogoKit::Client::Search
+    include GogoKit::Client::SellerListing
     include GogoKit::Client::Venue
 
     attr_accessor :client_id,
