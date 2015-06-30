@@ -3748,7 +3748,7 @@
     ],
     "_links": {
         "self": {
-            "href": "https://qa.api.viagogo.net/v2/sellerlistings/5236138/constraints",
+            "href": "https://api.viagogo.net/v2/sellerlistings/5236138/constraints",
             "title": null,
             "templated": false
         }
@@ -3760,7 +3760,7 @@
                 "name": "Paper Tickets",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/tickettypes/PaperTicket",
+                        "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
                         "title": null,
                         "templated": false
                     }
@@ -3771,7 +3771,7 @@
                 "name": "E-Tickets",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/tickettypes/ETicket",
+                        "href": "https://api.viagogo.net/v2/tickettypes/ETicket",
                         "title": null,
                         "templated": false
                     }
@@ -3811,7 +3811,7 @@
                 "note": "Limited or restricted view",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/0",
+                        "href": "https://api.viagogo.net/v2/listingnotes/0",
                         "title": null,
                         "templated": false
                     }
@@ -3822,7 +3822,7 @@
                 "note": "Ticket and hotel package",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/1",
+                        "href": "https://api.viagogo.net/v2/listingnotes/1",
                         "title": null,
                         "templated": false
                     }
@@ -3833,7 +3833,7 @@
                 "note": "Ticket and meal package",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/2",
+                        "href": "https://api.viagogo.net/v2/listingnotes/2",
                         "title": null,
                         "templated": false
                     }
@@ -3844,7 +3844,7 @@
                 "note": "Aisle seat",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/10",
+                        "href": "https://api.viagogo.net/v2/listingnotes/10",
                         "title": null,
                         "templated": false
                     }
@@ -3855,7 +3855,7 @@
                 "note": "Includes VIP pass",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/11",
+                        "href": "https://api.viagogo.net/v2/listingnotes/11",
                         "title": null,
                         "templated": false
                     }
@@ -3866,7 +3866,7 @@
                 "note": "Concession ticket - child",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/12",
+                        "href": "https://api.viagogo.net/v2/listingnotes/12",
                         "title": null,
                         "templated": false
                     }
@@ -3877,7 +3877,7 @@
                 "note": "Concession ticket - student",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/13",
+                        "href": "https://api.viagogo.net/v2/listingnotes/13",
                         "title": null,
                         "templated": false
                     }
@@ -3888,7 +3888,7 @@
                 "note": "Concession ticket - senior citizen",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/14",
+                        "href": "https://api.viagogo.net/v2/listingnotes/14",
                         "title": null,
                         "templated": false
                     }
@@ -3899,7 +3899,7 @@
                 "note": "Wheelchair user only",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/18",
+                        "href": "https://api.viagogo.net/v2/listingnotes/18",
                         "title": null,
                         "templated": false
                     }
@@ -3910,7 +3910,7 @@
                 "note": "Includes parking",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/32",
+                        "href": "https://api.viagogo.net/v2/listingnotes/32",
                         "title": null,
                         "templated": false
                     }
@@ -3921,7 +3921,7 @@
                 "note": "Side or rear view",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/42",
+                        "href": "https://api.viagogo.net/v2/listingnotes/42",
                         "title": null,
                         "templated": false
                     }
@@ -3932,7 +3932,7 @@
                 "note": "Alcohol free area",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/listingnotes/43",
+                        "href": "https://api.viagogo.net/v2/listingnotes/43",
                         "title": null,
                         "templated": false
                     }
@@ -3946,7 +3946,7 @@
                 "symbol": "AED",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/AED",
+                        "href": "https://api.viagogo.net/v2/currencies/AED",
                         "title": null,
                         "templated": false
                     }
@@ -3958,7 +3958,7 @@
                 "symbol": "Lek",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/ALL",
+                        "href": "https://api.viagogo.net/v2/currencies/ALL",
                         "title": null,
                         "templated": false
                     }
@@ -3970,7 +3970,7 @@
                 "symbol": "դր.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/AMD",
+                        "href": "https://api.viagogo.net/v2/currencies/AMD",
                         "title": null,
                         "templated": false
                     }
@@ -3982,7 +3982,7 @@
                 "symbol": "AR$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/ARS",
+                        "href": "https://api.viagogo.net/v2/currencies/ARS",
                         "title": null,
                         "templated": false
                     }
@@ -3994,7 +3994,7 @@
                 "symbol": "A$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/AUD",
+                        "href": "https://api.viagogo.net/v2/currencies/AUD",
                         "title": null,
                         "templated": false
                     }
@@ -4006,7 +4006,7 @@
                 "symbol": "KM",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BAM",
+                        "href": "https://api.viagogo.net/v2/currencies/BAM",
                         "title": null,
                         "templated": false
                     }
@@ -4018,7 +4018,7 @@
                 "symbol": "৳",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BDT",
+                        "href": "https://api.viagogo.net/v2/currencies/BDT",
                         "title": null,
                         "templated": false
                     }
@@ -4030,7 +4030,7 @@
                 "symbol": "лв.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BGN",
+                        "href": "https://api.viagogo.net/v2/currencies/BGN",
                         "title": null,
                         "templated": false
                     }
@@ -4042,7 +4042,7 @@
                 "symbol": "BHD",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BHD",
+                        "href": "https://api.viagogo.net/v2/currencies/BHD",
                         "title": null,
                         "templated": false
                     }
@@ -4054,7 +4054,7 @@
                 "symbol": "$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BND",
+                        "href": "https://api.viagogo.net/v2/currencies/BND",
                         "title": null,
                         "templated": false
                     }
@@ -4066,7 +4066,7 @@
                 "symbol": "Bs.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BOB",
+                        "href": "https://api.viagogo.net/v2/currencies/BOB",
                         "title": null,
                         "templated": false
                     }
@@ -4078,7 +4078,7 @@
                 "symbol": "R$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BRL",
+                        "href": "https://api.viagogo.net/v2/currencies/BRL",
                         "title": null,
                         "templated": false
                     }
@@ -4090,7 +4090,7 @@
                 "symbol": "р.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BYR",
+                        "href": "https://api.viagogo.net/v2/currencies/BYR",
                         "title": null,
                         "templated": false
                     }
@@ -4102,7 +4102,7 @@
                 "symbol": "$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/BZD",
+                        "href": "https://api.viagogo.net/v2/currencies/BZD",
                         "title": null,
                         "templated": false
                     }
@@ -4114,7 +4114,7 @@
                 "symbol": "C$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/CAD",
+                        "href": "https://api.viagogo.net/v2/currencies/CAD",
                         "title": null,
                         "templated": false
                     }
@@ -4126,7 +4126,7 @@
                 "symbol": "CHF",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/CHF",
+                        "href": "https://api.viagogo.net/v2/currencies/CHF",
                         "title": null,
                         "templated": false
                     }
@@ -4138,7 +4138,7 @@
                 "symbol": "CL$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/CLP",
+                        "href": "https://api.viagogo.net/v2/currencies/CLP",
                         "title": null,
                         "templated": false
                     }
@@ -4150,7 +4150,7 @@
                 "symbol": "¥",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/CNY",
+                        "href": "https://api.viagogo.net/v2/currencies/CNY",
                         "title": null,
                         "templated": false
                     }
@@ -4162,7 +4162,7 @@
                 "symbol": "COL$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/COP",
+                        "href": "https://api.viagogo.net/v2/currencies/COP",
                         "title": null,
                         "templated": false
                     }
@@ -4174,7 +4174,7 @@
                 "symbol": "₡",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/CRC",
+                        "href": "https://api.viagogo.net/v2/currencies/CRC",
                         "title": null,
                         "templated": false
                     }
@@ -4186,7 +4186,7 @@
                 "symbol": "Din.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/CSD",
+                        "href": "https://api.viagogo.net/v2/currencies/CSD",
                         "title": null,
                         "templated": false
                     }
@@ -4198,7 +4198,7 @@
                 "symbol": "Kč",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/CZK",
+                        "href": "https://api.viagogo.net/v2/currencies/CZK",
                         "title": null,
                         "templated": false
                     }
@@ -4210,7 +4210,7 @@
                 "symbol": "DKK",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/DKK",
+                        "href": "https://api.viagogo.net/v2/currencies/DKK",
                         "title": null,
                         "templated": false
                     }
@@ -4222,7 +4222,7 @@
                 "symbol": "RD$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/DOP",
+                        "href": "https://api.viagogo.net/v2/currencies/DOP",
                         "title": null,
                         "templated": false
                     }
@@ -4234,7 +4234,7 @@
                 "symbol": "DZD",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/DZD",
+                        "href": "https://api.viagogo.net/v2/currencies/DZD",
                         "title": null,
                         "templated": false
                     }
@@ -4246,7 +4246,7 @@
                 "symbol": "£",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/EGP",
+                        "href": "https://api.viagogo.net/v2/currencies/EGP",
                         "title": null,
                         "templated": false
                     }
@@ -4258,7 +4258,7 @@
                 "symbol": "ETB",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/ETB",
+                        "href": "https://api.viagogo.net/v2/currencies/ETB",
                         "title": null,
                         "templated": false
                     }
@@ -4270,7 +4270,7 @@
                 "symbol": "€",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/EUR",
+                        "href": "https://api.viagogo.net/v2/currencies/EUR",
                         "title": null,
                         "templated": false
                     }
@@ -4282,7 +4282,7 @@
                 "symbol": "£",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/GBP",
+                        "href": "https://api.viagogo.net/v2/currencies/GBP",
                         "title": null,
                         "templated": false
                     }
@@ -4294,7 +4294,7 @@
                 "symbol": "Lari",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/GEL",
+                        "href": "https://api.viagogo.net/v2/currencies/GEL",
                         "title": null,
                         "templated": false
                     }
@@ -4306,7 +4306,7 @@
                 "symbol": "Q",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/GTQ",
+                        "href": "https://api.viagogo.net/v2/currencies/GTQ",
                         "title": null,
                         "templated": false
                     }
@@ -4318,7 +4318,7 @@
                 "symbol": "HK$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/HKD",
+                        "href": "https://api.viagogo.net/v2/currencies/HKD",
                         "title": null,
                         "templated": false
                     }
@@ -4330,7 +4330,7 @@
                 "symbol": "L.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/HNL",
+                        "href": "https://api.viagogo.net/v2/currencies/HNL",
                         "title": null,
                         "templated": false
                     }
@@ -4342,7 +4342,7 @@
                 "symbol": "HRK",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/HRK",
+                        "href": "https://api.viagogo.net/v2/currencies/HRK",
                         "title": null,
                         "templated": false
                     }
@@ -4354,7 +4354,7 @@
                 "symbol": "Ft",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/HUF",
+                        "href": "https://api.viagogo.net/v2/currencies/HUF",
                         "title": null,
                         "templated": false
                     }
@@ -4366,7 +4366,7 @@
                 "symbol": "Rp.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/IDR",
+                        "href": "https://api.viagogo.net/v2/currencies/IDR",
                         "title": null,
                         "templated": false
                     }
@@ -4378,7 +4378,7 @@
                 "symbol": "₪",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/ILS",
+                        "href": "https://api.viagogo.net/v2/currencies/ILS",
                         "title": null,
                         "templated": false
                     }
@@ -4390,7 +4390,7 @@
                 "symbol": "Rs.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/INR",
+                        "href": "https://api.viagogo.net/v2/currencies/INR",
                         "title": null,
                         "templated": false
                     }
@@ -4402,7 +4402,7 @@
                 "symbol": "د.ع.‏",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/IQD",
+                        "href": "https://api.viagogo.net/v2/currencies/IQD",
                         "title": null,
                         "templated": false
                     }
@@ -4414,7 +4414,7 @@
                 "symbol": "﷼",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/IRR",
+                        "href": "https://api.viagogo.net/v2/currencies/IRR",
                         "title": null,
                         "templated": false
                     }
@@ -4426,7 +4426,7 @@
                 "symbol": "kr.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/ISK",
+                        "href": "https://api.viagogo.net/v2/currencies/ISK",
                         "title": null,
                         "templated": false
                     }
@@ -4438,7 +4438,7 @@
                 "symbol": "$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/JMD",
+                        "href": "https://api.viagogo.net/v2/currencies/JMD",
                         "title": null,
                         "templated": false
                     }
@@ -4450,7 +4450,7 @@
                 "symbol": "د.ا.‏",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/JOD",
+                        "href": "https://api.viagogo.net/v2/currencies/JOD",
                         "title": null,
                         "templated": false
                     }
@@ -4462,7 +4462,7 @@
                 "symbol": "¥",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/JPY",
+                        "href": "https://api.viagogo.net/v2/currencies/JPY",
                         "title": null,
                         "templated": false
                     }
@@ -4474,7 +4474,7 @@
                 "symbol": "S",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/KES",
+                        "href": "https://api.viagogo.net/v2/currencies/KES",
                         "title": null,
                         "templated": false
                     }
@@ -4486,7 +4486,7 @@
                 "symbol": "сом",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/KGS",
+                        "href": "https://api.viagogo.net/v2/currencies/KGS",
                         "title": null,
                         "templated": false
                     }
@@ -4498,7 +4498,7 @@
                 "symbol": "៛",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/KHR",
+                        "href": "https://api.viagogo.net/v2/currencies/KHR",
                         "title": null,
                         "templated": false
                     }
@@ -4510,7 +4510,7 @@
                 "symbol": "₩",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/KRW",
+                        "href": "https://api.viagogo.net/v2/currencies/KRW",
                         "title": null,
                         "templated": false
                     }
@@ -4522,7 +4522,7 @@
                 "symbol": "KWD",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/KWD",
+                        "href": "https://api.viagogo.net/v2/currencies/KWD",
                         "title": null,
                         "templated": false
                     }
@@ -4534,7 +4534,7 @@
                 "symbol": "Т",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/KZT",
+                        "href": "https://api.viagogo.net/v2/currencies/KZT",
                         "title": null,
                         "templated": false
                     }
@@ -4546,7 +4546,7 @@
                 "symbol": "₭",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/LAK",
+                        "href": "https://api.viagogo.net/v2/currencies/LAK",
                         "title": null,
                         "templated": false
                     }
@@ -4558,7 +4558,7 @@
                 "symbol": "£",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/LBP",
+                        "href": "https://api.viagogo.net/v2/currencies/LBP",
                         "title": null,
                         "templated": false
                     }
@@ -4570,7 +4570,7 @@
                 "symbol": "௹",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/LKR",
+                        "href": "https://api.viagogo.net/v2/currencies/LKR",
                         "title": null,
                         "templated": false
                     }
@@ -4582,7 +4582,7 @@
                 "symbol": "LTL",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/LTL",
+                        "href": "https://api.viagogo.net/v2/currencies/LTL",
                         "title": null,
                         "templated": false
                     }
@@ -4594,7 +4594,7 @@
                 "symbol": "LVL",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/LVL",
+                        "href": "https://api.viagogo.net/v2/currencies/LVL",
                         "title": null,
                         "templated": false
                     }
@@ -4606,7 +4606,7 @@
                 "symbol": "د.ل.‏",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/LYD",
+                        "href": "https://api.viagogo.net/v2/currencies/LYD",
                         "title": null,
                         "templated": false
                     }
@@ -4618,7 +4618,7 @@
                 "symbol": "د.م.‏",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/MAD",
+                        "href": "https://api.viagogo.net/v2/currencies/MAD",
                         "title": null,
                         "templated": false
                     }
@@ -4630,7 +4630,7 @@
                 "symbol": "ден.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/MKD",
+                        "href": "https://api.viagogo.net/v2/currencies/MKD",
                         "title": null,
                         "templated": false
                     }
@@ -4642,7 +4642,7 @@
                 "symbol": "₮",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/MNT",
+                        "href": "https://api.viagogo.net/v2/currencies/MNT",
                         "title": null,
                         "templated": false
                     }
@@ -4654,7 +4654,7 @@
                 "symbol": "MOP",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/MOP",
+                        "href": "https://api.viagogo.net/v2/currencies/MOP",
                         "title": null,
                         "templated": false
                     }
@@ -4666,7 +4666,7 @@
                 "symbol": "ރ.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/MVR",
+                        "href": "https://api.viagogo.net/v2/currencies/MVR",
                         "title": null,
                         "templated": false
                     }
@@ -4678,7 +4678,7 @@
                 "symbol": "MX$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/MXN",
+                        "href": "https://api.viagogo.net/v2/currencies/MXN",
                         "title": null,
                         "templated": false
                     }
@@ -4690,7 +4690,7 @@
                 "symbol": "RM",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/MYR",
+                        "href": "https://api.viagogo.net/v2/currencies/MYR",
                         "title": null,
                         "templated": false
                     }
@@ -4702,7 +4702,7 @@
                 "symbol": "N",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/NIO",
+                        "href": "https://api.viagogo.net/v2/currencies/NIO",
                         "title": null,
                         "templated": false
                     }
@@ -4714,7 +4714,7 @@
                 "symbol": "NOK",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/NOK",
+                        "href": "https://api.viagogo.net/v2/currencies/NOK",
                         "title": null,
                         "templated": false
                     }
@@ -4726,7 +4726,7 @@
                 "symbol": "₨",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/NPR",
+                        "href": "https://api.viagogo.net/v2/currencies/NPR",
                         "title": null,
                         "templated": false
                     }
@@ -4738,7 +4738,7 @@
                 "symbol": "NZ$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/NZD",
+                        "href": "https://api.viagogo.net/v2/currencies/NZD",
                         "title": null,
                         "templated": false
                     }
@@ -4750,7 +4750,7 @@
                 "symbol": "﷼",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/OMR",
+                        "href": "https://api.viagogo.net/v2/currencies/OMR",
                         "title": null,
                         "templated": false
                     }
@@ -4762,7 +4762,7 @@
                 "symbol": "B/.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/PAB",
+                        "href": "https://api.viagogo.net/v2/currencies/PAB",
                         "title": null,
                         "templated": false
                     }
@@ -4774,7 +4774,7 @@
                 "symbol": "S/.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/PEN",
+                        "href": "https://api.viagogo.net/v2/currencies/PEN",
                         "title": null,
                         "templated": false
                     }
@@ -4786,7 +4786,7 @@
                 "symbol": "₱",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/PHP",
+                        "href": "https://api.viagogo.net/v2/currencies/PHP",
                         "title": null,
                         "templated": false
                     }
@@ -4798,7 +4798,7 @@
                 "symbol": "₨",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/PKR",
+                        "href": "https://api.viagogo.net/v2/currencies/PKR",
                         "title": null,
                         "templated": false
                     }
@@ -4810,7 +4810,7 @@
                 "symbol": "zł",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/PLN",
+                        "href": "https://api.viagogo.net/v2/currencies/PLN",
                         "title": null,
                         "templated": false
                     }
@@ -4822,7 +4822,7 @@
                 "symbol": "Gs.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/PYG",
+                        "href": "https://api.viagogo.net/v2/currencies/PYG",
                         "title": null,
                         "templated": false
                     }
@@ -4834,7 +4834,7 @@
                 "symbol": "QAR",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/QAR",
+                        "href": "https://api.viagogo.net/v2/currencies/QAR",
                         "title": null,
                         "templated": false
                     }
@@ -4846,7 +4846,7 @@
                 "symbol": "lei",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/RON",
+                        "href": "https://api.viagogo.net/v2/currencies/RON",
                         "title": null,
                         "templated": false
                     }
@@ -4858,7 +4858,7 @@
                 "symbol": "РСД",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/RSD",
+                        "href": "https://api.viagogo.net/v2/currencies/RSD",
                         "title": null,
                         "templated": false
                     }
@@ -4870,7 +4870,7 @@
                 "symbol": "RUB",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/RUB",
+                        "href": "https://api.viagogo.net/v2/currencies/RUB",
                         "title": null,
                         "templated": false
                     }
@@ -4882,7 +4882,7 @@
                 "symbol": "RWF",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/RWF",
+                        "href": "https://api.viagogo.net/v2/currencies/RWF",
                         "title": null,
                         "templated": false
                     }
@@ -4894,7 +4894,7 @@
                 "symbol": "SAR",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/SAR",
+                        "href": "https://api.viagogo.net/v2/currencies/SAR",
                         "title": null,
                         "templated": false
                     }
@@ -4906,7 +4906,7 @@
                 "symbol": "SEK",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/SEK",
+                        "href": "https://api.viagogo.net/v2/currencies/SEK",
                         "title": null,
                         "templated": false
                     }
@@ -4918,7 +4918,7 @@
                 "symbol": "S$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/SGD",
+                        "href": "https://api.viagogo.net/v2/currencies/SGD",
                         "title": null,
                         "templated": false
                     }
@@ -4930,7 +4930,7 @@
                 "symbol": "£",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/SYP",
+                        "href": "https://api.viagogo.net/v2/currencies/SYP",
                         "title": null,
                         "templated": false
                     }
@@ -4942,7 +4942,7 @@
                 "symbol": "฿",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/THB",
+                        "href": "https://api.viagogo.net/v2/currencies/THB",
                         "title": null,
                         "templated": false
                     }
@@ -4954,7 +4954,7 @@
                 "symbol": "т.р.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/TJS",
+                        "href": "https://api.viagogo.net/v2/currencies/TJS",
                         "title": null,
                         "templated": false
                     }
@@ -4966,7 +4966,7 @@
                 "symbol": "د.ت.‏",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/TND",
+                        "href": "https://api.viagogo.net/v2/currencies/TND",
                         "title": null,
                         "templated": false
                     }
@@ -4978,7 +4978,7 @@
                 "symbol": "TL",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/TRY",
+                        "href": "https://api.viagogo.net/v2/currencies/TRY",
                         "title": null,
                         "templated": false
                     }
@@ -4990,7 +4990,7 @@
                 "symbol": "$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/TTD",
+                        "href": "https://api.viagogo.net/v2/currencies/TTD",
                         "title": null,
                         "templated": false
                     }
@@ -5002,7 +5002,7 @@
                 "symbol": "NT$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/TWD",
+                        "href": "https://api.viagogo.net/v2/currencies/TWD",
                         "title": null,
                         "templated": false
                     }
@@ -5014,7 +5014,7 @@
                 "symbol": "UAH",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/UAH",
+                        "href": "https://api.viagogo.net/v2/currencies/UAH",
                         "title": null,
                         "templated": false
                     }
@@ -5026,7 +5026,7 @@
                 "symbol": "$",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/USD",
+                        "href": "https://api.viagogo.net/v2/currencies/USD",
                         "title": null,
                         "templated": false
                     }
@@ -5038,7 +5038,7 @@
                 "symbol": "$U",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/UYU",
+                        "href": "https://api.viagogo.net/v2/currencies/UYU",
                         "title": null,
                         "templated": false
                     }
@@ -5050,7 +5050,7 @@
                 "symbol": "so'm",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/UZS",
+                        "href": "https://api.viagogo.net/v2/currencies/UZS",
                         "title": null,
                         "templated": false
                     }
@@ -5062,7 +5062,7 @@
                 "symbol": "Bs.",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/VEF",
+                        "href": "https://api.viagogo.net/v2/currencies/VEF",
                         "title": null,
                         "templated": false
                     }
@@ -5074,7 +5074,7 @@
                 "symbol": "₫",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/VND",
+                        "href": "https://api.viagogo.net/v2/currencies/VND",
                         "title": null,
                         "templated": false
                     }
@@ -5086,7 +5086,7 @@
                 "symbol": "XOF",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/XOF",
+                        "href": "https://api.viagogo.net/v2/currencies/XOF",
                         "title": null,
                         "templated": false
                     }
@@ -5098,7 +5098,7 @@
                 "symbol": "﷼",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/YER",
+                        "href": "https://api.viagogo.net/v2/currencies/YER",
                         "title": null,
                         "templated": false
                     }
@@ -5110,7 +5110,7 @@
                 "symbol": "R",
                 "_links": {
                     "self": {
-                        "href": "https://qa.api.viagogo.net/v2/currencies/ZAR",
+                        "href": "https://api.viagogo.net/v2/currencies/ZAR",
                         "title": null,
                         "templated": false
                     }

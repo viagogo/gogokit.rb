@@ -1,4 +1,5 @@
 require 'gogokit/utils'
+require 'gogokit/resource/listing_constraints'
 require 'gogokit/resource/seller_listing'
 
 module GogoKit
@@ -33,6 +34,38 @@ module GogoKit
                              GogoKit::SellerListingsRepresenter,
                              :get,
                              "#{root.links['self'].href}/sellerlistings",
+                             options)
+      end
+
+      # Retrieves the constraints for creating a listing for an event
+      #
+      # @param [Integer] event_id The ID of the event
+      # @param [Hash] options Optional options
+      # @return [GogoKit::ListingConstraints] The constraints for creating a
+      # listing for an event
+      def get_listing_constraints_for_event(event_id, options = {})
+        root = get_root
+        object_from_response(GogoKit::ListingConstraints,
+                             GogoKit::ListingConstraintsRepresenter,
+                             :get,
+                             "#{root.links['self'].href}/events/#{event_id}" \
+                             '/listingconstraints',
+                             options)
+      end
+
+      # Retrieves the constraints for updating a listing
+      #
+      # @param [Integer] listing_id The ID of the listing
+      # @param [Hash] options Optional options
+      # @return [GogoKit::ListingConstraints] The constraints for updating a
+      # listing
+      def get_listing_constraints(listing_id, options = {})
+        root = get_root
+        object_from_response(GogoKit::ListingConstraints,
+                             GogoKit::ListingConstraintsRepresenter,
+                             :get,
+                             "#{root.links['self'].href}/sellerlistings/" \
+                             "#{listing_id}/constraints",
                              options)
       end
     end

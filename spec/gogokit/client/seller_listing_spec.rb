@@ -99,4 +99,88 @@ describe GogoKit::Client::SellerListing do
         .to be_an_instance_of(GogoKit::SellerListing)
     end
   end
+
+  describe '#get_listing_constraints_for_event' do
+    it 'performs a get request' do
+      allow(client).to receive(:get_root).and_return(root)
+      stub_request(:any, /.*/).to_return(body: '{}')
+      client.get_listing_constraints_for_event(-1)
+      expect(a_request(:get, /.*/)).to have_been_made
+    end
+
+    it 'performs a request built from the self link of the root resource' do
+      self_link = Roar::Hypermedia::Hyperlink.new(href: 'https://apiroot.com')
+      root = GogoKit::Root.new
+      root.links = {'self' => self_link}
+      expected_url = self_link.href + '/events/55/listingconstraints'
+      allow(client).to receive(:get_root).and_return(root)
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
+      client.get_listing_constraints_for_event 55
+
+      expect(client).to have_received(:request).with(anything,
+                                                     expected_url,
+                                                     anything)
+    end
+
+    it 'passes the given options in the request' do
+      expected_options = {params: {foo: 5}, headers: {bar: '50'}}
+      allow(client).to receive(:get_root).and_return(root)
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
+      client.get_listing_constraints_for_event(-1, expected_options)
+
+      expect(client).to have_received(:request) do |_, _, options|
+        expect(options).to eq(expected_options)
+      end
+    end
+
+    it 'returns {GogoKit::ListingConstraints} created from the response' do
+      allow(client).to receive(:get_root).and_return(root)
+      stub_request(:any, /.*/)
+        .to_return(body: fixture('listing_constraints.json'))
+      genres = client.get_listing_constraints_for_event(-1)
+      expect(genres).to be_an_instance_of(GogoKit::ListingConstraints)
+    end
+  end
+
+  describe '#get_listing_constraints' do
+    it 'performs a get request' do
+      allow(client).to receive(:get_root).and_return(root)
+      stub_request(:any, /.*/).to_return(body: '{}')
+      client.get_listing_constraints(-1)
+      expect(a_request(:get, /.*/)).to have_been_made
+    end
+
+    it 'performs a request built from the self link of the root resource' do
+      self_link = Roar::Hypermedia::Hyperlink.new(href: 'https://apiroot.com')
+      root = GogoKit::Root.new
+      root.links = {'self' => self_link}
+      expected_url = self_link.href + '/sellerlistings/55/constraints'
+      allow(client).to receive(:get_root).and_return(root)
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
+      client.get_listing_constraints 55
+
+      expect(client).to have_received(:request).with(anything,
+                                                     expected_url,
+                                                     anything)
+    end
+
+    it 'passes the given options in the request' do
+      expected_options = {params: {foo: 5}, headers: {bar: '50'}}
+      allow(client).to receive(:get_root).and_return(root)
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
+      client.get_listing_constraints(-1, expected_options)
+
+      expect(client).to have_received(:request) do |_, _, options|
+        expect(options).to eq(expected_options)
+      end
+    end
+
+    it 'returns {GogoKit::ListingConstraints} created from the response' do
+      allow(client).to receive(:get_root).and_return(root)
+      stub_request(:any, /.*/)
+        .to_return(body: fixture('listing_constraints.json'))
+      genres = client.get_listing_constraints(-1)
+      expect(genres).to be_an_instance_of(GogoKit::ListingConstraints)
+    end
+  end
 end
