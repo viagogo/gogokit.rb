@@ -1,0 +1,43 @@
+{
+  "full_name": "Joe Smith",
+  "email": "joe.smith@email.com",
+  "primary_phone": "+447654321098",
+  "email_optin": false,
+  "_links": {
+    "self": {
+      "href": "https://api.viagogo.net/v2/user",
+      "title": "Account Settings",
+      "templated": false
+    },
+    "user:update": {
+      "href": "https://api.viagogo.net/v2/user",
+      "title": null,
+      "templated": false
+    },
+    "user:addresses": {
+      "href": "https://api.viagogo.net/v2/addresses",
+      "title": "Addresses",
+      "templated": false
+    },
+    "user:paymentmethods": {
+      "href": "https://api.viagogo.net/v2/paymentmethods",
+      "title": "Payment Methods",
+      "templated": false
+    },
+    "user:purchases": {
+      "href": "https://api.viagogo.net/v2/purchases",
+      "title": "Purchases",
+      "templated": false
+    },
+    "user:sales": {
+      "href": "https://api.viagogo.net/v2/sales",
+      "title": "Sales",
+      "templated": false
+    },
+    "user:sellerlistings": {
+      "href": "https://api.viagogo.net/v2/sellerlistings",
+      "title": "Listings",
+      "templated": false
+    }
+  }
+}

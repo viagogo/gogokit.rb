@@ -1,0 +1,75 @@
+{
+  "id": 95698,
+  "details": "************1111",
+  "type": "CreditCard",
+  "type_description": "Credit or Debit Card",
+  "buyer_method": true,
+  "default_buyer_method": false,
+  "seller_method": false,
+  "default_seller_method": false,
+  "_links": {
+    "self": {
+      "href": "https://api.viagogo.net/v2/paymentmethods/95698",
+      "title": null,
+      "templated": false
+    },
+    "paymentmethod:updatedefaults": {
+      "href": "https://api.viagogo.net/v2/paymentmethods/95698",
+      "title": null,
+      "templated": false
+    },
+    "paymentmethod:updatecreditcard": {
+      "href": "https://api.viagogo.net/v2/paymentmethods/95698?paymentMethodType=CreditCard",
+      "title": null,
+      "templated": false
+    },
+    "paymentmethod:delete": {
+      "href": "https://api.viagogo.net/v2/paymentmethods/95698",
+      "title": null,
+      "templated": false
+    }
+  },
+  "_embedded": {
+    "billing_address": {
+      "id": 34115,
+      "full_name": "Joe Smith",
+      "default": true,
+      "address_1": "Flat 16, Waterman's Quay",
+      "address_2": "33 William Morris Way",
+      "address_3": "Fulham",
+      "city": "London",
+      "state_province": "Greater London",
+      "postal_code": "SW6 2UU",
+      "_links": {
+        "self": {
+          "href": "https://api.viagogo.net/v2/addresses/34115",
+          "title": null,
+          "templated": false
+        },
+        "address:update": {
+          "href": "https://api.viagogo.net/v2/addresses/34115",
+          "title": null,
+          "templated": false
+        },
+        "address:delete": {
+          "href": "https://api.viagogo.net/v2/addresses/34115",
+          "title": null,
+          "templated": false
+        }
+      },
+      "_embedded": {
+        "country": {
+          "code": "GB",
+          "name": "United Kingdom",
+          "_links": {
+            "self": {
+              "href": "https://api.viagogo.net/v2/countries/GB",
+              "title": null,
+              "templated": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
