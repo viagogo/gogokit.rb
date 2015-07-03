@@ -1,4 +1,5 @@
 require 'gogokit/resource'
+require 'gogokit/paged_resource'
 require 'gogokit/resource/address'
 
 module GogoKit
