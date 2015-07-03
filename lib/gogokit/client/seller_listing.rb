@@ -68,6 +68,66 @@ module GogoKit
                              "#{listing_id}/constraints",
                              options)
       end
+
+      # Creates a preview of a listing for an event
+      #
+      # @param [Integer] event_id The ID of the event
+      # @param [Hash] options Optional options
+      # @return [GogoKit::SellerListing] The preview of a listing for an event
+      def create_seller_listing_preview(event_id, options = {})
+        root = get_root
+        object_from_response(GogoKit::SellerListing,
+                             GogoKit::SellerListingRepresenter,
+                             :post,
+                             "#{root.links['self'].href}/events/" \
+                             "#{event_id}/sellerlistingpreview",
+                             options)
+      end
+
+      # Creates a preview of an update to a listing
+      #
+      # @param [Integer] listing_id The ID of the listing
+      # @param [Hash] options Optional options
+      # @return [GogoKit::SellerListing] The preview of a listing for an event
+      def create_seller_listing_update_preview(listing_id, options = {})
+        root = get_root
+        object_from_response(GogoKit::SellerListing,
+                             GogoKit::SellerListingRepresenter,
+                             :post,
+                             "#{root.links['self'].href}/sellerlistings/" \
+                             "#{listing_id}/updatepreview",
+                             options)
+      end
+
+      # Creates a listing for an event
+      #
+      # @param [Integer] event_id The ID of the event
+      # @param [Hash] options Optional options
+      # @return [GogoKit::SellerListing] The newly created listing
+      def create_seller_listing(event_id, options = {})
+        root = get_root
+        object_from_response(GogoKit::SellerListing,
+                             GogoKit::SellerListingRepresenter,
+                             :post,
+                             "#{root.links['self'].href}/events/" \
+                             "#{event_id}/sellerlistings",
+                             options)
+      end
+
+      # Updates an existing listing
+      #
+      # @param [Integer] listing_id The ID of the listing
+      # @param [Hash] options Optional options
+      # @return [GogoKit::SellerListing] The updated created listing
+      def update_seller_listing(listing_id, options = {})
+        root = get_root
+        object_from_response(GogoKit::SellerListing,
+                             GogoKit::SellerListingRepresenter,
+                             :patch,
+                             "#{root.links['self'].href}/sellerlistings/" \
+                             "#{listing_id}",
+                             options)
+      end
     end
   end
 end
