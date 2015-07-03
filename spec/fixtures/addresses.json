@@ -1,0 +1,67 @@
+{
+  "total_items": 100,
+  "page": 1,
+  "page_size": 1,
+  "_links": {
+    "self": {
+      "href": "https://api.viagogo.net/v2/addresses?page=1&page_size=1",
+      "title": null,
+      "templated": false
+    },
+    "next": {
+      "href": "https://api.viagogo.net/v2/addresses?page=2&page_size=1",
+      "title": null,
+      "templated": false
+    },
+    "last": {
+      "href": "https://api.viagogo.net/v2/addresses?page=100&page_size=1",
+      "title": null,
+      "templated": false
+    }
+  },
+  "_embedded": {
+    "items": [
+      {
+        "id": 34115,
+        "full_name": "Joe Smith",
+        "default": true,
+        "address_1": "Flat 16, Waterman's Quay",
+        "address_2": "33 William Morris Way",
+        "address_3": "Fulham",
+        "city": "London",
+        "state_province": "Greater London",
+        "postal_code": "SW6 2UU",
+        "_links": {
+          "self": {
+            "href": "https://api.viagogo.net/v2/addresses/34115",
+            "title": null,
+            "templated": false
+          },
+          "address:update": {
+            "href": "https://api.viagogo.net/v2/addresses/34115",
+            "title": null,
+            "templated": false
+          },
+          "address:delete": {
+            "href": "https://api.viagogo.net/v2/addresses/34115",
+            "title": null,
+            "templated": false
+          }
+        },
+        "_embedded": {
+          "country": {
+            "code": "GB",
+            "name": "United Kingdom",
+            "_links": {
+              "self": {
+                "href": "https://api.viagogo.net/v2/countries/GB",
+                "title": null,
+                "templated": false
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

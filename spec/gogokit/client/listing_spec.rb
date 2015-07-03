@@ -50,7 +50,7 @@ describe GogoKit::Client::Listing do
 
     it 'returns {GogoKit::Listing} created from the response' do
       allow(client).to receive(:get_root).and_return(root)
-      stub_request(:any, /.*/).to_return(body: fixture('genres.json'))
+      stub_request(:any, /.*/).to_return(body: fixture('listing.json'))
       genres = client.get_listing(-1)
       expect(genres).to be_an_instance_of(GogoKit::Listing)
     end
