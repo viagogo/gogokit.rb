@@ -128,6 +128,17 @@ module GogoKit
                              "#{listing_id}",
                              options)
       end
+
+      # Deletes a listing
+      #
+      # @param [Integer] listing_id The ID of the listing
+      # @param [Hash] options Optional options
+      # @return [Hash] object containing response information
+      def delete_seller_listing(listing_id, options = {})
+        root = get_root
+        delete("#{root.links['self'].href}/sellerlistings/#{listing_id}",
+               options)
+      end
     end
   end
 end
