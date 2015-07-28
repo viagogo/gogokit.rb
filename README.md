@@ -32,7 +32,7 @@ Install via Ruby gems
 
 ... or add to your Gemfile
 
-    gem 'gogokit', '~> 0.2'
+    gem 'gogokit', '~> 0.3'
 
 
 ## Usage
@@ -60,6 +60,46 @@ search_results = client.search 'FC Barcelona tickets'
 # Get the different event genres (see http://developer.viagogo.net/#entities)
 genres = client.get_genres
 ```
+
+
+## Configuration and defaults
+
+GogoKit::Client accepts a range of options when creating a new client instance.
+
+### Configurating client instances
+
+Every writeable attribute in {GogoKit::Configuration} can be set one at a time
+
+```ruby
+client = GogoKit::Client.new
+client.client_id = YOUR_CLIENT_ID
+client.api_root_endpoint = 'https://sandbox.api.viagogo.net'
+```
+
+or in a block:
+
+```ruby
+client = GogoKit::Client.new do |config|
+  config.client_id = YOUR_CLIENT_ID
+  config.api_root_endpoint = 'https://sandbox.api.viagogo.net'
+end
+```
+
+### Using ENV variables
+
+Default configuration values are specified in {GogoKit::Default}. Many
+attributes will look for a default value from the ENV before returning GogoKit's
+default.
+
+```ruby
+# Given $GOGOKIT_CLIENT_ID is "abcd1234" and $GOGOKIT_API_ROOT_ENDPOINT is
+# "http://sandbox.api.viagogo.net"
+client = GogoKit::Client.new
+client.client_id
+client.api_root_endpoint
+
+# => "abcd1234"
+# => "http://sandbox.api.viagogo.net"
 
 
 ## How to contribute
@@ -118,4 +158,4 @@ introduced with new major versions. As a result of this policy, you can (and
 should) specify a dependency on this gem using the [Pessimistic Version
 Constraint][pvc] with two digits of precision. For example:
 
-    spec.add_dependency 'gogokit', '~> 0.1'
+    spec.add_dependency 'gogokit', '~> 0.3'
