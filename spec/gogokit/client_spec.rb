@@ -8,128 +8,80 @@ describe GogoKit::Client do
   end
 
   describe '#new' do
-    context 'when options are given' do
-      it 'sets client_id to given value' do
-        expected_client_id = 'my_client_id'
-        client = described_class.new(client_id: expected_client_id)
-        expect(client.client_id).to eq(expected_client_id)
+    {
+      client_id: ['my_client_id', [1, 20]],
+      client_secret: ['my_client_secret', [1, '3']],
+      access_token: ['asdfda55/', [1, '3']],
+      api_root_endpoint: ['https://api.com/root', 'http:||invalid.o'],
+      oauth_token_endpoint: ['https://api.com/token', 'http:||invalid.o']
+    }.each do |option, valid_and_invalid_values|
+      context 'when options are given' do
+        it "sets #{option} to given value" do
+          expected_value = valid_and_invalid_values[0]
+          client = described_class.new(option => expected_value)
+          expect(client.send(option)).to eq(expected_value)
+        end
+
+        it "raises GogoKit::ConfigurationError when #{option} is invalid" do
+          invalid_value = valid_and_invalid_values[1]
+          expect { described_class.new(option => invalid_value) }
+            .to raise_error GogoKit::ConfigurationError
+        end
       end
 
-      it 'sets client_secret to given value' do
-        expected_client_secret = 'my secret'
-        client = described_class.new(client_secret: expected_client_secret)
-        expect(client.client_secret).to eq(expected_client_secret)
+      context 'when block is given' do
+        it 'passes the current instance to be configured in the block' do
+          actual_client = nil
+          expected_client = described_class.new do |config|
+            config.client_id = 'CI'
+            config.client_secret = 'CS'
+            actual_client = config
+          end
+
+          expect(actual_client.object_id).to equal(expected_client.object_id)
+        end
+
+        it "sets #{option} to given value" do
+          expected_value = valid_and_invalid_values[0]
+          client = described_class.new do |config|
+            config.send(:"#{option}=", expected_value)
+          end
+          expect(client.send(option)).to eq(expected_value)
+        end
+
+        it "raises GogoKit::ConfigurationError when #{option} is invalid" do
+          invalid_value = valid_and_invalid_values[1]
+          expected = expect do
+            described_class.new do |config|
+              config.send(:"#{option}=", invalid_value)
+            end
+          end
+
+          expected.to raise_error GogoKit::ConfigurationError
+        end
       end
 
-      it 'sets access_token to given value' do
-        expected_access_token = 'asdfda55/'
-        client = described_class.new(access_token: expected_access_token)
-        expect(client.access_token).to eq(expected_access_token)
-      end
-
-      it 'sets api_root_endpoint to given value' do
-        expected_root_endpoint = 'https://api.com/root'
-        client = described_class.new(api_root_endpoint: expected_root_endpoint)
-        expect(client.api_root_endpoint).to eq(expected_root_endpoint)
-      end
-
-      it 'sets oauth_token_endpoint to given value' do
-        expected_token_url = 'https://api.com/token'
-        client = described_class.new(oauth_token_endpoint: expected_token_url)
-        expect(client.oauth_token_endpoint).to eq(expected_token_url)
-      end
-
-      it 'raises GogoKit::ConfigurationError when :client_id is invalid' do
-        expect { described_class.new(client_id: [50, 1]) }
-          .to raise_error GogoKit::ConfigurationError
-      end
-
-      it 'raises GogoKit::ConfigurationError when :consumer_secret is' \
-      ' invalid' do
-        expect { described_class.new(client_secret: [3, 'A']) }
-          .to raise_error GogoKit::ConfigurationError
-      end
-
-      it 'raises GogoKit::ConfigurationError when :access_token is invalid' do
-        expect { described_class.new(access_token: [3, 'A']) }
-          .to raise_error GogoKit::ConfigurationError
-      end
-
-      it 'raises GogoKit::ConfigurationError when :api_root_endpoint is' \
-      ' invalid URL' do
-        expect { described_class.new(api_root_endpoint: 'http:||invalid.o') }
-          .to raise_error GogoKit::ConfigurationError
-      end
-
-      it 'raises GogoKit::ConfigurationError when :oauth_token_endpoint is' \
-      ' invalid URL' do
-        expect { described_class.new(oauth_token_endpoint: 'http:||invalid.o') }
-          .to raise_error GogoKit::ConfigurationError
+      context 'when value is not given and environment variable exists' do
+        it "sets #{option} to the envronment variable value" do
+          expected_value = valid_and_invalid_values[0]
+          with_modified_env "GOGOKIT_#{option.upcase}" => expected_value do
+            client = described_class.new
+            expect(client.send(option)).to eq(expected_value)
+          end
+        end
       end
     end
 
-    context 'when block is given' do
-      it 'passes the current instance to be configured in the block' do
-        actual_client = nil
-        expected_client = described_class.new do |config|
-          config.client_id = 'CI'
-          config.client_secret = 'CS'
-          actual_client = config
-        end
-
-        expect(actual_client.object_id).to equal(expected_client.object_id)
-      end
-
-      it 'raises GogoKit::ConfigurationError when :client_id is invalid' do
-        expected = expect do
-          described_class.new do |config|
-            config.client_id = 50
+    [:api_root_endpoint, :oauth_token_endpoint].each do |option_with_default|
+      context 'when value is not given and environment variable is nil' do
+        it "sets #{option_with_default} to default value" do
+          expected_value = GogoKit::Default.const_get option_with_default.upcase
+          env_variable_name = "GOGOKIT_#{option_with_default.upcase}"
+          with_modified_env env_variable_name => nil do
+            client = described_class.new
+            expect(client.send(option_with_default)).to eq(expected_value)
           end
         end
-
-        expected.to raise_error GogoKit::ConfigurationError
-      end
-
-      it 'raises GogoKit::ConfigurationError when :client_secret is invalid' do
-        expected = expect do
-          described_class.new do |config|
-            config.client_secret = 6
-          end
-        end
-
-        expected.to raise_error GogoKit::ConfigurationError
-      end
-
-      it 'raises GogoKit::ConfigurationError when :access_token is invalid' do
-        expected = expect do
-          described_class.new do |config|
-            config.access_token = 6
-          end
-        end
-
-        expected.to raise_error GogoKit::ConfigurationError
-      end
-
-      it 'raises GogoKit::ConfigurationError when :api_root_endpoint is' \
-      ' invalid URL' do
-        expected = expect do
-          described_class.new do |config|
-            config.api_root_endpoint = 'https:||invalid.org'
-          end
-        end
-
-        expected.to raise_error GogoKit::ConfigurationError
-      end
-
-      it 'raises GogoKit::ConfigurationError when :oauth_token_endpoint is' \
-      ' invalid URL' do
-        expected = expect do
-          described_class.new do |config|
-            config.oauth_token_endpoint = 'https:||invalid.org'
-          end
-        end
-
-        expected.to raise_error GogoKit::ConfigurationError
       end
     end
   end
