@@ -6,6 +6,7 @@ gem 'rubocop', '~> 0.32.0'
 group :test do
   gem 'rspec'
   gem 'webmock'
+  gem 'climate_control'
   gem 'coveralls'
   gem 'simplecov'
 end

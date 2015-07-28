@@ -12,6 +12,7 @@ end
 
 require 'gogokit'
 require 'rspec'
+require 'climate_control'
 require 'webmock/rspec'
 
 def fixture_path
@@ -20,4 +21,8 @@ end
 
 def fixture(file)
   File.new(fixture_path + '/' + file)
+end
+
+def with_modified_env(options, &block)
+  ClimateControl.modify(options, &block)
 end
