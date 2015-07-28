@@ -66,7 +66,7 @@ genres = client.get_genres
 
 GogoKit::Client accepts a range of options when creating a new client instance.
 
-### Configurating client instances
+### Configuring client instances
 
 Every writeable attribute in {GogoKit::Configuration} can be set one at a time
 
