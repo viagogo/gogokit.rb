@@ -100,7 +100,7 @@ client.api_root_endpoint
 
 # => "abcd1234"
 # => "http://sandbox.api.viagogo.net"
-
+```
 
 ## How to contribute
 
