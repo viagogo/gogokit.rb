@@ -61,12 +61,23 @@ search_results = client.search 'FC Barcelona tickets'
 genres = client.get_genres
 ```
 
+### Request Headers, Query Parameters and Body
 
-## Configuration and defaults
+The last parameter of all GogoKit::Client methods is an `options` Hash that
+supports `headers`, `params` and `body` keys for specifying request headers,
+query parameters and body respectively.
+
+```ruby
+events = client.get_events_by_category(CATEGORY_ID,
+                                       headers: {'Accept-Language' => 'JA'},
+                                       params: {'sort' => 'name'})
+```
+
+### Configuration and defaults
 
 GogoKit::Client accepts a range of options when creating a new client instance.
 
-### Configuring client instances
+#### Configuring client instances
 
 Every writeable attribute in {GogoKit::Configuration} can be set one at a time
 
@@ -85,7 +96,7 @@ client = GogoKit::Client.new do |config|
 end
 ```
 
-### Using ENV variables
+#### Using ENV variables
 
 Default configuration values are specified in {GogoKit::Default}. Many
 attributes will look for a default value from the ENV before returning GogoKit's
