@@ -13,7 +13,7 @@ module GogoKit
     include Representable::JSON
 
     property :amount
-    property :currency
+    property :currency_code
     property :display
   end
 end
