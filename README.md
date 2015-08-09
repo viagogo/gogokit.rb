@@ -32,7 +32,7 @@ Install via Ruby gems
 
 ... or add to your Gemfile
 
-    gem 'gogokit', '~> 0.4'
+    gem 'gogokit'
 
 
 ## Usage
