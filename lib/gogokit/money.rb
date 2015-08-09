@@ -6,7 +6,10 @@ module GogoKit
   # amounts.
   #
   # @see http://viagogo.github.io/developer.viagogo.net/#money
-  class Money < OpenStruct
+  class Money
+    attr_accessor :amount,
+                  :currency_code,
+                  :display
   end
 
   module MoneyRepresenter
