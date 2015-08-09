@@ -32,7 +32,7 @@ Install via Ruby gems
 
 ... or add to your Gemfile
 
-    gem 'gogokit', '~> 0.3'
+    gem 'gogokit', '~> 0.4'
 
 
 ## Usage
@@ -169,4 +169,4 @@ introduced with new major versions. As a result of this policy, you can (and
 should) specify a dependency on this gem using the [Pessimistic Version
 Constraint][pvc] with two digits of precision. For example:
 
-    spec.add_dependency 'gogokit', '~> 0.3'
+    spec.add_dependency 'gogokit', '~> 0.4'
