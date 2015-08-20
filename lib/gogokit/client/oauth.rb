@@ -43,7 +43,7 @@ module GogoKit
 
       def token_request_headers
         credentials = "#{client_id}:#{client_secret}"
-        basic_header_value = Base64.encode64(credentials).gsub("\n", '')
+        basic_header_value = Base64.encode64(credentials).delete("\n")
         {
           content_type: 'application/x-www-form-urlencoded',
           accept: 'application/json',
