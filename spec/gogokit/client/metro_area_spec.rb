@@ -8,7 +8,7 @@ describe GogoKit::Client::MetroArea do
 
   let(:root) do
     self_link = Roar::Hypermedia::Hyperlink.new(href: 'https://api.com/')
-    metro_areas_link =  Roar::Hypermedia::Hyperlink.new(href: 'https://a.com/m')
+    metro_areas_link = Roar::Hypermedia::Hyperlink.new(href: 'https://a.com/m')
     root = GogoKit::Root.new
     root.links = {
       'self' => self_link,

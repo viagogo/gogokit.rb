@@ -6,7 +6,7 @@ module GogoKit
   module Connection
     private
 
-    def connection_options  # rubocop:disable Metrics/MethodLength
+    def connection_options # rubocop:disable Metrics/MethodLength
       @connection_options ||= {
         headers: {
           accept: 'application/hal+json',

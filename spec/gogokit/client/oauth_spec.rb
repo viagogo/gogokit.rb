@@ -32,7 +32,7 @@ describe 'GogoKit::Client::OAuth' do
       allow(client).to receive(:request).and_return(body: '{}', status: 200)
       client.get_access_token(expected_grant_type, foo: [1, 2])
 
-      expect(client).to have_received(:request)  do |_, _, options|
+      expect(client).to have_received(:request) do |_, _, options|
         expect(options[:body][:grant_type]).to eq(expected_grant_type)
       end
     end

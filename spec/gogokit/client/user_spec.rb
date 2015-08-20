@@ -48,7 +48,7 @@ describe GogoKit::Client::User do
       end
     end
 
-    it 'returns {GogoKit::User} created from the response'  do
+    it 'returns {GogoKit::User} created from the response' do
       allow(client).to receive(:get_root).and_return(root)
       stub_request(:any, /.*/).to_return(body: fixture('user.json'))
       user = client.get_user
