@@ -18,6 +18,7 @@
 [troubleshootwindows]: https://github.com/jnunemaker/httparty/wiki/Troubleshooting-on-Windows
 [submitanissue]: https://github.com/viagogo/gogokit.rb/issues
 [apidocsgettingstarted]: http://developer.viagogo.net/#getting-started
+[rubysamples]: https://github.com/viagogo/gogokit.rb/tree/master/samples
 
 
 Ruby toolkit for working with the viagogo API. Our [developer site][apidocs]
@@ -37,7 +38,8 @@ Install via Ruby gems
 
 ## Usage
 
-See our [developer site][apidocsgettingstarted] for more examples.
+See our [developer site][apidocsgettingstarted] and
+[samples][rubysamples] for more examples.
 
 ```ruby
 require 'gogokit'
