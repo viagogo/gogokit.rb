@@ -18,6 +18,9 @@ build/
 ## Rubymine
 .idea/
 
+## Vagrant
+.vagrant/
+
 ## Documentation cache and generated files:
 /.yardoc/
 /_yardoc/
