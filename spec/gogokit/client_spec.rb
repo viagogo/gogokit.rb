@@ -12,8 +12,10 @@ describe GogoKit::Client do
       client_id: ['my_client_id', [1, 20]],
       client_secret: ['my_client_secret', [1, '3']],
       access_token: ['asdfda55/', [1, '3']],
+      api_environment: [:sandbox, :invalid],
       api_root_endpoint: ['https://api.com/root', 'http:||invalid.o'],
-      oauth_token_endpoint: ['https://api.com/token', 'http:||invalid.o']
+      oauth_token_endpoint: ['https://api.com/token', 'http:||invalid.o'],
+      authorization_endpoint: ['https://api.com/authorize', 'http:||invalid.o']
     }.each do |option, valid_and_invalid_values|
       context 'when options are given' do
         it "sets #{option} to given value" do
@@ -62,9 +64,9 @@ describe GogoKit::Client do
       end
 
       context 'when value is not given and environment variable exists' do
-        it "sets #{option} to the envronment variable value" do
+        it "sets #{option} to the environment variable value" do
           expected_value = valid_and_invalid_values[0]
-          with_modified_env "GOGOKIT_#{option.upcase}" => expected_value do
+          with_modified_env "GOGOKIT_#{option.upcase}" => expected_value.to_s do
             client = described_class.new
             expect(client.send(option)).to eq(expected_value)
           end
@@ -72,10 +74,15 @@ describe GogoKit::Client do
       end
     end
 
-    [:api_root_endpoint, :oauth_token_endpoint].each do |option_with_default|
+    [
+      :api_root_endpoint,
+      :oauth_token_endpoint,
+      :authorization_endpoint
+    ].each do |option_with_default|
       context 'when value is not given and environment variable is nil' do
-        it "sets #{option_with_default} to default value" do
-          expected_value = GogoKit::Default.const_get option_with_default.upcase
+        it "sets #{option_with_default} to default production value" do
+          url_hash = GogoKit::Default.const_get "#{option_with_default.upcase}S"
+          expected_value = url_hash[:production]
           env_variable_name = "GOGOKIT_#{option_with_default.upcase}"
           with_modified_env env_variable_name => nil do
             client = described_class.new

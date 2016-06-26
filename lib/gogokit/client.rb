@@ -64,6 +64,7 @@ module GogoKit
       yield self if block_given?
 
       validate_configuration_credentials!
+      validate_configuration_api_environment!
       validate_configuration_endpoints!
     end
 
