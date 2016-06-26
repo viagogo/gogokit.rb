@@ -133,4 +133,54 @@ describe 'GogoKit::Client::OAuth' do
       expect(actual_url).to eq(expected_url)
     end
   end
+
+  describe '#get_authorization_code_access_token' do
+    it 'passes authorization_code grant type to #get_access_token' do
+      expected_grant_type = 'authorization_code'
+      allow(client).to receive(:get_access_token)
+      client.get_authorization_code_access_token 'code',
+                                                 'http://myapp.com/cb',
+                                                 %w(S1 S2)
+
+      expect(client).to have_received(:get_access_token) do |grant_type, _|
+        expect(grant_type).to eq(expected_grant_type)
+      end
+    end
+
+    it 'passes given params and options to #get_access_token' do
+      options = {
+        a: [1, 2],
+        z: 'foo'
+      }
+      expected_options = {
+        a: [1, 2],
+        z: 'foo',
+        code: 'code',
+        redirect_uri: 'http://cb.com',
+        scope: 'S1 S2'
+      }
+      allow(client).to receive(:get_access_token)
+      client.get_authorization_code_access_token(
+        expected_options[:code],
+        expected_options[:redirect_uri],
+        %w(S1 S2),
+        options)
+
+      expect(client).to have_received(:get_access_token) do |_, actual_opts|
+        expect(actual_opts).to eq(expected_options)
+      end
+    end
+
+    it 'returns the {GogoKit::OAuthToken} returned by #get_access_token' do
+      expected_token = GogoKit::OAuthToken.new
+      allow(client).to receive(:get_access_token).and_return(expected_token)
+
+      actual_token =
+        client.get_authorization_code_access_token 'code',
+                                                   'http://myapp.com/cb',
+                                                   %w(S1 S2)
+
+      expect(actual_token).to eq(expected_token)
+    end
+  end
 end
