@@ -37,19 +37,19 @@ module GogoKit
         env_api_environment.nil? ? :production : env_api_environment.to_sym
       end
 
-      def api_root_endpoint(api_environment = :production)
+      def api_root_endpoint
         ENV['GOGOKIT_API_ROOT_ENDPOINT'] ||
           GogoKit::Default::API_ROOT_ENDPOINTS[api_environment]
       end
 
-      def oauth_token_endpoint(api_environment = :production)
+      def oauth_token_endpoint
         ENV['GOGOKIT_OAUTH_TOKEN_ENDPOINT'] ||
-          GogoKit::Default::OAUTH_TOKEN_ENDPOINTS[api_environment.to_sym]
+          GogoKit::Default::OAUTH_TOKEN_ENDPOINTS[api_environment]
       end
 
-      def authorization_endpoint(api_environment = :production)
+      def authorization_endpoint
         ENV['GOGOKIT_AUTHORIZATION_ENDPOINT'] ||
-          GogoKit::Default::AUTHORIZATION_ENDPOINTS[api_environment.to_sym]
+          GogoKit::Default::AUTHORIZATION_ENDPOINTS[api_environment]
       end
     end
   end

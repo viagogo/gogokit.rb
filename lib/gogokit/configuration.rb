@@ -39,11 +39,11 @@ module GogoKit
       validate_configuration_api_environment!
 
       self.api_root_endpoint =
-        GogoKit::Default.api_root_endpoint(@api_environment)
+        GogoKit::Default::API_ROOT_ENDPOINTS[@api_environment]
       self.oauth_token_endpoint =
-        GogoKit::Default.oauth_token_endpoint(@api_environment)
+        GogoKit::Default::OAUTH_TOKEN_ENDPOINTS[@api_environment]
       self.authorization_endpoint =
-        GogoKit::Default.authorization_endpoint(@api_environment)
+        GogoKit::Default::AUTHORIZATION_ENDPOINTS[@api_environment]
     end
 
     private

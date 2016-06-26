@@ -83,8 +83,11 @@ describe GogoKit::Client do
         it "sets #{option_with_default} to default production value" do
           url_hash = GogoKit::Default.const_get "#{option_with_default.upcase}S"
           expected_value = url_hash[:production]
-          env_variable_name = "GOGOKIT_#{option_with_default.upcase}"
-          with_modified_env env_variable_name => nil do
+          env = {
+            "GOGOKIT_#{option_with_default.upcase}" => nil,
+            'GOGOKIT_API_ENVIRONMENT' => nil
+          }
+          with_modified_env env do
             client = described_class.new
             expect(client.send(option_with_default)).to eq(expected_value)
           end
