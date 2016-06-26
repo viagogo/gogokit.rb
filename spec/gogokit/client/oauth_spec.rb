@@ -119,4 +119,18 @@ describe 'GogoKit::Client::OAuth' do
       expect(actual_token).to eq(expected_token)
     end
   end
+
+  describe '#get_authorization_url' do
+    it 'returns a URL of the given values' do
+      redirect_uri = 'https://myapp.com/callback'
+      state = 'abc123'
+      expected_url = "#{client.authorization_endpoint}?client_id=" \
+                     "#{client.client_id}&response_type=code&redirect_uri=" \
+                     "#{redirect_uri}&scope=S1%20S2&state=#{state}"
+      actual_url =
+          client.get_authorization_url redirect_uri, %w(S1 S2), state
+
+      expect(actual_url).to eq(expected_url)
+    end
+  end
 end

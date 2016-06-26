@@ -25,12 +25,27 @@ module GogoKit
 
       # Get an OAuth access token for an application.
       #
-      # @see
-      # http://viagogo.github.io/developer.viagogo.net/#client-credentials-grant
+      # @see http://developer.viagogo.net/#application-only-authentication-flow
       # @param [Hash] options Token request information
       # @return [GogoKit::OAuthToken] The OAuth token
       def get_client_access_token(options = {})
         get_access_token('client_credentials', options)
+      end
+
+      # Gets the URL where applications can obtain a users consent to make API
+      # calls on their behalf.
+      # @see http://developer.viagogo.net/#user-login-authentication-flow
+      # @param [String] redirect_uri Application redirect URL where the
+      # authorization code is sent. This must match the URL registered for your
+      # application.
+      # @param [Array] scopes The scopes that specify the type of access that is
+      # needed.
+      # @param [String] state An opaque value used to maintain state between the
+      # authorize request and the callback.
+      def get_authorization_url(redirect_uri, scopes, state = nil)
+        scope_value = scopes.nil? ? '' : scopes.join('%20')
+        "#{authorization_endpoint}?client_id=#{client_id}&response_type=code&" \
+        "redirect_uri=#{redirect_uri}&scope=#{scope_value}&state=#{state}"
       end
 
       private
