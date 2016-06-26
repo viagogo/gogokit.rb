@@ -54,6 +54,15 @@ module GogoKit
         get_access_token('client_credentials', options)
       end
 
+      # Obtain additional access tokens in order to prolong access to a users
+      # data
+      # @param [GogoKit::OAuthToken] token The token to be refreshed.
+      def get_refresh_token(token, options = {})
+        merged_options = options.merge(refresh_token: token.refresh_token,
+                                       scope: token.scope)
+        get_access_token('refresh_token', merged_options)
+      end
+
       # Get an OAuth access token
       #
       # @see http://viagogo.github.io/developer.viagogo.net/#authentication

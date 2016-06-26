@@ -183,4 +183,50 @@ describe 'GogoKit::Client::OAuth' do
       expect(actual_token).to eq(expected_token)
     end
   end
+
+  describe '#get_refresh_token' do
+    it 'passes refresh_token grant type to #get_access_token' do
+      expected_grant_type = 'refresh_token'
+      allow(client).to receive(:get_access_token)
+      client.get_refresh_token GogoKit::OAuthToken.new
+
+      expect(client).to have_received(:get_access_token) do |grant_type, _|
+        expect(grant_type).to eq(expected_grant_type)
+      end
+    end
+
+    it 'passes values from the given token to #get_access_token' do
+      options = {
+        a: [1, 2],
+        z: 'foo'
+      }
+      expected_options = {
+        a: [1, 2],
+        z: 'foo',
+        refresh_token: 'refresh me!',
+        scope: 'S1 S2'
+      }
+      token = GogoKit::OAuthToken.new
+      token.refresh_token = expected_options[:refresh_token]
+      token.scope = expected_options[:scope]
+      allow(client).to receive(:get_access_token)
+      client.get_refresh_token(token, options)
+
+      expect(client).to have_received(:get_access_token) do |_, actual_opts|
+        expect(actual_opts).to eq(expected_options)
+      end
+    end
+
+    it 'returns the {GogoKit::OAuthToken} returned by #get_access_token' do
+      expected_token = GogoKit::OAuthToken.new
+      allow(client).to receive(:get_access_token).and_return(expected_token)
+
+      actual_token =
+          client.get_authorization_code_access_token 'code',
+                                                     'http://myapp.com/cb',
+                                                     %w(S1 S2)
+
+      expect(actual_token).to eq(expected_token)
+    end
+  end
 end
