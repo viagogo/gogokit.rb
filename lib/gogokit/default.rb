@@ -5,19 +5,19 @@ module GogoKit
     API_ROOT_ENDPOINTS = {
       production: 'https://api.viagogo.net/v2'.freeze,
       sandbox: 'https://sandbox.api.viagogo.net/v2'.freeze
-    }
+    }.freeze
 
     # Default OAuth token endpoints
     OAUTH_TOKEN_ENDPOINTS = {
       production: 'https://account.viagogo.com/oauth2/token'.freeze,
       sandbox: 'https://sandbox.account.viagogo.com/oauth2/token'.freeze
-    }
+    }.freeze
 
     # Default Authorize endpoints
     AUTHORIZATION_ENDPOINTS = {
       production: 'https://account.viagogo.com/authorize'.freeze,
       sandbox: 'https://sandbox.account.viagogo.com/authorize'.freeze
-    }
+    }.freeze
 
     class << self
       def client_id

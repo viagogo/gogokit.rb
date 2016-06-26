@@ -128,7 +128,7 @@ describe 'GogoKit::Client::OAuth' do
                      "#{client.client_id}&response_type=code&redirect_uri=" \
                      "#{redirect_uri}&scope=S1%20S2&state=#{state}"
       actual_url =
-          client.get_authorization_url redirect_uri, %w(S1 S2), state
+        client.get_authorization_url redirect_uri, %w(S1 S2), state
 
       expect(actual_url).to eq(expected_url)
     end
@@ -164,7 +164,8 @@ describe 'GogoKit::Client::OAuth' do
         expected_options[:code],
         expected_options[:redirect_uri],
         %w(S1 S2),
-        options)
+        options
+      )
 
       expect(client).to have_received(:get_access_token) do |_, actual_opts|
         expect(actual_opts).to eq(expected_options)
@@ -222,9 +223,9 @@ describe 'GogoKit::Client::OAuth' do
       allow(client).to receive(:get_access_token).and_return(expected_token)
 
       actual_token =
-          client.get_authorization_code_access_token 'code',
-                                                     'http://myapp.com/cb',
-                                                     %w(S1 S2)
+        client.get_authorization_code_access_token 'code',
+                                                   'http://myapp.com/cb',
+                                                   %w(S1 S2)
 
       expect(actual_token).to eq(expected_token)
     end

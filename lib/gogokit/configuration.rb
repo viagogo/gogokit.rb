@@ -85,9 +85,9 @@ module GogoKit
     def validate_configuration_credentials!
       credentials.each do |credential, value|
         next if value.nil? || value.is_a?(String) || value.is_a?(Symbol)
-        fail(ConfigurationError,
-             "Invalid #{credential} specified: #{value.inspect} must be a" \
-             ' string or symbol.')
+        raise(ConfigurationError,
+              "Invalid #{credential} specified: #{value.inspect} must be a" \
+              ' string or symbol.')
       end
     end
 
@@ -95,9 +95,9 @@ module GogoKit
       endpoints.each do |endpoint, value|
         next if !value.nil? && value =~ /\A#{URI.regexp}\z/
 
-        fail(ConfigurationError,
-             "Invalid #{endpoint} specified: " \
-             "#{value.inspect} must be a valid URL")
+        raise(ConfigurationError,
+              "Invalid #{endpoint} specified: " \
+              "#{value.inspect} must be a valid URL")
       end
     end
 
@@ -106,9 +106,9 @@ module GogoKit
                 api_environment == :production ||
                 api_environment == :sandbox
 
-      fail(ConfigurationError,
-           'Invalid api_environment specified: ' \
-             "#{api_environment.inspect} must be :production or :sandbox")
+      raise(ConfigurationError,
+            'Invalid api_environment specified: ' \
+            "#{api_environment.inspect} must be :production or :sandbox")
     end
   end
 end

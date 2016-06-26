@@ -13,7 +13,7 @@ module GogoKit
           if response_env[:status].to_i >= 400
             api_error = GogoKit::ApiError.new
             api_error.response = response_env
-            fail api_error, error_message(response_env)
+            raise api_error, error_message(response_env)
           end
         end
       end
