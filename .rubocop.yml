@@ -2,6 +2,7 @@
 AllCops:
   Exclude:
     - 'samples/**/*'
+    - 'vendor/**/*'
 
 Metrics/MethodLength:
   CountComments: false
