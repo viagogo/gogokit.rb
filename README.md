@@ -115,6 +115,15 @@ client.api_root_endpoint
 # => "http://sandbox.api.viagogo.net"
 ```
 
+#### Sandbox Environment
+
+```ruby
+# You can use the GogoKitConfiguration to switch between the sandbox and
+# production environments. See http://developer.viagogo.net/#sandbox-environment
+client = GogoKit::Client.new
+client.api_environment = :sandbox
+```
+
 ## How to contribute
 
 All submissions are welcome. Fork the repository, read the rest of this README
