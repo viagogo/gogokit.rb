@@ -1,296 +1,201 @@
 {
-  "id": 5236138,
-  "created_at": "2015-06-18T12:31:02+01:00",
+  "id": 5635718,
+  "created_at": "2016-05-05T07:52:22+00:00",
+  "updated_at": "2016-05-14T11:21:52+00:00",
+  "external_id": "22456",
   "number_of_tickets": 2,
-  "display_number_of_tickets": null,
+  "display_number_of_tickets": 2,
+  "instant_delivery": false,
   "seating": {
-    "section": "101",
-    "row": "H",
-    "seat_from": "AA",
-    "seat_to": "XY"
+    "section": "121",
+    "row": "A",
+    "seat_from": null,
+    "seat_to": null
+  },
+  "display_seating": {
+    "section": "121",
+    "row": "A",
+    "seat_from": null,
+    "seat_to": null
   },
   "face_value": {
-    "amount": 1,
+    "amount": 31,
     "currency_code": "USD",
-    "display": "$1.00"
+    "display": "$31.00"
   },
   "ticket_price": {
-    "amount": 8,
+    "amount": 120,
     "currency_code": "USD",
-    "display": "$8.00"
+    "display": "$120.00"
   },
   "ticket_proceeds": {
-    "amount": 7.04,
+    "amount": 120,
     "currency_code": "USD",
-    "display": "$7.04"
+    "display": "$120.00"
   },
+  "in_hand_at": null,
   "_links": {
     "self": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
       "title": null,
       "templated": false
     },
     "sellerlisting:constraints": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138/constraints",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:updatepreview": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138/updatepreview",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:updatetickettype": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:updateticketprice": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:updatesplittype": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:updatenumberoftickets": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:updateseating": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:updateticketlocation": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:updatenotes": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
-      "title": null,
-      "templated": false
-    },
-    "sellerlisting:unpublish": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718/constraints",
       "title": null,
       "templated": false
     },
     "sellerlisting:delete": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
       "title": "Delete Listing",
       "templated": false
     },
-    "sellerlisting:updatefacevalue": {
-      "href": "https://api.viagogo.net/v2/sellerlistings/5236138",
+    "sellerlisting:eticketuploads": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718/eticketuploads",
       "title": null,
       "templated": false
     },
-    "sellerlisting:webpage": {
-      "href": "http://www.viagogo.com/ww/secure/buy/SelectQuantity?ListingID=5236138&EventID=735139&quantity=2",
-      "title": "Buy",
+    "sellerlisting:saveetickets": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
       "templated": false
     },
     "sellerlisting:ticketlocation": {
-      "href": "https://api.viagogo.net/v2/addresses/34115",
+      "href": "https://sandbox.api.viagogo.net/v2/addresses/51175",
       "title": "Ticket Location Address",
+      "templated": false
+    },
+    "sellerlisting:unpublish": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updatefacevalue": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updateinhandat": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updatenotes": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updatenumberoftickets": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updatepreview": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718/updatepreview",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updateseating": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updatesplittype": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updateticketlocation": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updateticketprice": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:updatetickettype": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718",
+      "title": null,
+      "templated": false
+    },
+    "sellerlisting:uploadeticket": {
+      "href": "https://sandbox.api.viagogo.net/v2/sellerlistings/5635718/eticketuploads",
+      "title": null,
       "templated": false
     }
   },
   "_embedded": {
     "event": {
-      "id": 735139,
-      "name": "One Direction",
-      "start_date": "2015-09-24T18:30:00+01:00",
+      "id": 1352092,
+      "name": "Justin Bieber",
+      "start_date": "2016-07-13T19:30:00-04:00",
+      "end_date": null,
+      "on_sale_date": "2015-11-16T09:55:00-05:00",
       "date_confirmed": true,
       "_links": {
         "self": {
-          "href": "https://api.viagogo.net/v2/events/735139",
+          "href": "https://sandbox.api.viagogo.net/v2/events/1352092?category_id=16486",
+          "title": null,
+          "templated": false
+        }
+      }
+    },
+    "listing_notes": [
+      {
+        "id": 14,
+        "note": "Concession ticket - senior citizen"
+      }
+    ],
+    "split_type": {
+      "type": "AvoidOneAndThree",
+      "name": "Avoid leaving one or three tickets",
+      "description": "Do not allow a single ticket OR three tickets to be left on their own"
+    },
+    "state": {
+      "name": "Active",
+      "title": null,
+      "description": "Active Listing"
+    },
+    "ticket_type": {
+      "type": "ETicket",
+      "name": "E-Tickets",
+      "_links": {
+        "self": {
+          "href": "https://sandbox.api.viagogo.net/v2/tickettypes/ETicket",
           "title": null,
           "templated": false
         }
       }
     },
     "venue": {
-      "id": 1364,
-      "name": "The O2 arena",
-      "city": "London",
-      "latitude": 51.5025,
-      "longitude": 0.0024,
+      "id": 10974,
+      "name": "Consol Energy Center",
+      "city": "Pittsburgh",
+      "state_province": "Pennsylvania",
+      "latitude": 40.4392,
+      "longitude": -79.9897,
       "_links": {
         "self": {
-          "href": "https://api.viagogo.net/v2/venues/1364",
+          "href": "https://sandbox.api.viagogo.net/v2/venues/10974",
           "title": null,
           "templated": false
         }
       },
       "_embedded": {
         "country": {
-          "code": "GB",
-          "name": "United Kingdom",
+          "code": "US",
+          "name": "USA",
           "_links": {
             "self": {
-              "href": "https://api.viagogo.net/v2/countries/GB",
+              "href": "https://sandbox.api.viagogo.net/v2/countries/US",
               "title": null,
               "templated": false
             }
           }
         }
       }
-    },
-    "ticket_type": {
-      "type": "PaperTicket",
-      "name": "Paper Tickets",
-      "_links": {
-        "self": {
-          "href": "https://api.viagogo.net/v2/tickettypes/PaperTicket",
-          "title": null,
-          "templated": false
-        }
-      }
-    },
-    "split_type": {
-      "type": "Any",
-      "name": "Any",
-      "description": "Allow the tickets to be split up in any way"
-    },
-    "listing_notes": [
-      {
-        "id": 0,
-        "note": "Limited or restricted view",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/0",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 1,
-        "note": "Ticket and hotel package",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/1",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 2,
-        "note": "Ticket and meal package",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/2",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 10,
-        "note": "Aisle seat",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/10",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 11,
-        "note": "Includes VIP pass",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/11",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 12,
-        "note": "Concession ticket - child",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/12",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 13,
-        "note": "Concession ticket - student",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/13",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 14,
-        "note": "Concession ticket - senior citizen",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/14",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 18,
-        "note": "Wheelchair user only",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/18",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 32,
-        "note": "Includes parking",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/32",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 42,
-        "note": "Side or rear view",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/42",
-            "title": null,
-            "templated": false
-          }
-        }
-      },
-      {
-        "id": 43,
-        "note": "Alcohol free area",
-        "_links": {
-          "self": {
-            "href": "https://api.viagogo.net/v2/listingnotes/43",
-            "title": null,
-            "templated": false
-          }
-        }
-      }
-    ]
+    }
   }
 }
