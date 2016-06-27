@@ -14,11 +14,10 @@ module GogoKit
       # @param [Hash] options Optional options
       # @return [GogoKit::SellerListing] The requested listing
       def get_seller_listing(listing_id, options = {})
-        root = get_root
         object_from_response(GogoKit::SellerListing,
                              GogoKit::SellerListingRepresenter,
                              :get,
-                             "#{root.links['self'].href}/sellerlistings/" \
+                             "#{api_root_endpoint}/sellerlistings/" \
                              "#{listing_id}",
                              options)
       end
@@ -29,11 +28,10 @@ module GogoKit
       # @param [Hash] options Optional options
       # @return [GogoKit::PagedResource] All listings for the authenticated user
       def get_seller_listings(options = {})
-        root = get_root
         object_from_response(GogoKit::PagedResource,
                              GogoKit::SellerListingsRepresenter,
                              :get,
-                             "#{root.links['self'].href}/sellerlistings",
+                             "#{api_root_endpoint}/sellerlistings",
                              options)
       end
 
@@ -44,11 +42,10 @@ module GogoKit
       # @return [GogoKit::ListingConstraints] The constraints for creating a
       # listing for an event
       def get_listing_constraints_for_event(event_id, options = {})
-        root = get_root
         object_from_response(GogoKit::ListingConstraints,
                              GogoKit::ListingConstraintsRepresenter,
                              :get,
-                             "#{root.links['self'].href}/events/#{event_id}" \
+                             "#{api_root_endpoint}/events/#{event_id}" \
                              '/listingconstraints',
                              options)
       end
@@ -60,11 +57,10 @@ module GogoKit
       # @return [GogoKit::ListingConstraints] The constraints for updating a
       # listing
       def get_listing_constraints(listing_id, options = {})
-        root = get_root
         object_from_response(GogoKit::ListingConstraints,
                              GogoKit::ListingConstraintsRepresenter,
                              :get,
-                             "#{root.links['self'].href}/sellerlistings/" \
+                             "#{api_root_endpoint}/sellerlistings/" \
                              "#{listing_id}/constraints",
                              options)
       end
@@ -75,11 +71,10 @@ module GogoKit
       # @param [Hash] options Optional options
       # @return [GogoKit::SellerListing] The preview of a listing for an event
       def create_seller_listing_preview(event_id, options = {})
-        root = get_root
         object_from_response(GogoKit::SellerListing,
                              GogoKit::SellerListingRepresenter,
                              :post,
-                             "#{root.links['self'].href}/events/" \
+                             "#{api_root_endpoint}/events/" \
                              "#{event_id}/sellerlistingpreview",
                              options)
       end
@@ -90,11 +85,10 @@ module GogoKit
       # @param [Hash] options Optional options
       # @return [GogoKit::SellerListing] The preview of a listing for an event
       def create_seller_listing_update_preview(listing_id, options = {})
-        root = get_root
         object_from_response(GogoKit::SellerListing,
                              GogoKit::SellerListingRepresenter,
                              :post,
-                             "#{root.links['self'].href}/sellerlistings/" \
+                             "#{api_root_endpoint}/sellerlistings/" \
                              "#{listing_id}/updatepreview",
                              options)
       end
@@ -105,11 +99,10 @@ module GogoKit
       # @param [Hash] options Optional options
       # @return [GogoKit::SellerListing] The newly created listing
       def create_seller_listing(event_id, options = {})
-        root = get_root
         object_from_response(GogoKit::SellerListing,
                              GogoKit::SellerListingRepresenter,
                              :post,
-                             "#{root.links['self'].href}/events/" \
+                             "#{api_root_endpoint}/events/" \
                              "#{event_id}/sellerlistings",
                              options)
       end
@@ -120,11 +113,10 @@ module GogoKit
       # @param [Hash] options Optional options
       # @return [GogoKit::SellerListing] The updated created listing
       def update_seller_listing(listing_id, options = {})
-        root = get_root
         object_from_response(GogoKit::SellerListing,
                              GogoKit::SellerListingRepresenter,
                              :patch,
-                             "#{root.links['self'].href}/sellerlistings/" \
+                             "#{api_root_endpoint}/sellerlistings/" \
                              "#{listing_id}",
                              options)
       end
@@ -135,8 +127,7 @@ module GogoKit
       # @param [Hash] options Optional options
       # @return [Hash] object containing response information
       def delete_seller_listing(listing_id, options = {})
-        root = get_root
-        delete("#{root.links['self'].href}/sellerlistings/#{listing_id}",
+        delete("#{api_root_endpoint}/sellerlistings/#{listing_id}",
                options)
       end
     end
