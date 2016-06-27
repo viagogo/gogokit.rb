@@ -14,13 +14,18 @@ module GogoKit
   # @see http://viagogo.github.io/developer.viagogo.net/#sellerlisting
   class SellerListing < Resource
     attr_accessor :id,
+                  :external_id,
                   :created_at,
+                  :updated_at,
+                  :in_hand_at,
                   :number_of_tickets,
                   :display_number_of_tickets,
                   :seating,
+                  :display_seating,
                   :face_value,
                   :ticket_price,
                   :ticket_proceeds,
+                  :instant_delivery,
                   :event,
                   :venue,
                   :ticket_type,
@@ -33,10 +38,18 @@ module GogoKit
     include GogoKit::ResourceRepresenter
 
     property :id
+    property :external_id
     property :created_at, type: DateTime
+    property :updated_at, type: DateTime
+    property :in_hand_at, type: DateTime
     property :number_of_tickets
     property :display_number_of_tickets
+    property :instant_delivery
     property :seating,
+             extend: GogoKit::SeatingRepresenter,
+             class: GogoKit::Seating,
+             skip_parse: ->(fragment, _) { fragment.nil? }
+    property :display_seating,
              extend: GogoKit::SeatingRepresenter,
              class: GogoKit::Seating,
              skip_parse: ->(fragment, _) { fragment.nil? }
