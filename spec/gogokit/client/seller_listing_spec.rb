@@ -182,6 +182,31 @@ describe GogoKit::Client::SellerListing do
     end
   end
 
+  describe '#create_seller_listing_for_requested_event' do
+    it 'performs a post request' do
+      stub_request(:any, /.*/).to_return(body: '{}')
+      client.create_seller_listing_for_requested_event(body: {})
+      expect(a_request(:post, /.*/)).to have_been_made
+    end
+
+    it 'passes the given options in the request' do
+      expected_options = {params: {foo: 5}, headers: {bar: '50'}}
+      allow(client).to receive(:request).and_return(body: '{}', status: 200)
+      client.create_seller_listing_for_requested_event(expected_options)
+
+      expect(client).to have_received(:request) do |_, _, options|
+        expect(options).to eq(expected_options)
+      end
+    end
+
+    it 'returns {GogoKit::SellerListing} created from the response' do
+      stub_request(:any, /.*/)
+        .to_return(body: fixture('seller_listing.json'))
+      preview = client.create_seller_listing_for_requested_event(body: {})
+      expect(preview).to be_an_instance_of(GogoKit::SellerListing)
+    end
+  end
+
   describe '#update_seller_listing' do
     it 'performs a patch request' do
       stub_request(:any, /.*/).to_return(body: '{}')

@@ -107,6 +107,16 @@ module GogoKit
                              options)
       end
 
+      # Creates a listing for aa requested event
+      # @return [GogoKit::SellerListing] The newly created listing
+      def create_seller_listing_for_requested_event(options = {})
+        object_from_response(GogoKit::SellerListing,
+                             GogoKit::SellerListingRepresenter,
+                             :post,
+                             "#{api_root_endpoint}/sellerlistings",
+                             options)
+      end
+
       # Updates an existing listing
       #
       # @param [Integer] listing_id The ID of the listing
